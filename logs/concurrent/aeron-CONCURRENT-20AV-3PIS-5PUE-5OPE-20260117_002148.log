@@ -1,0 +1,24 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+Avión 49 envió petición: LANDING_REQUESTED
+Avión 52 envió petición: LANDING_REQUESTED
+Avión 53 envió petición: LANDING_REQUESTED
+Avión 35 envió petición: LANDING_REQUESTED
+Avión 38 envió petición: LANDING_REQUESTED
+Avión 36 envió petición: LANDING_REQUESTED
+Avión 37 envió petición: LANDING_REQUESTED
+Avión 41 envió petición: LANDING_REQUESTED
+Avión 39 envió petición: LANDING_REQUESTED
+Avión 40 envió petición: LANDING_REQUESTED
+Avión 44 envió petición: LANDING_REQUESTED
+Avión 42 envió petición: LANDING_REQUESTED
+Avión 48 envió petición: LANDING_REQUESTED
+Avión 50 envió petición: LANDING_REQUESTED
+Avión 47 envió petición: LANDING_REQUESTED
+Avión 45 envió petición: LANDING_REQUESTED
+Avión 34 envió petición: LANDING_REQUESTED
+Avión 46 envió petición: LANDING_REQUESTED
+Avión 51 envió petición: LANDING_REQUESTED
+Avión 43 envió petición: LANDING_REQUESTED
+Avión 49 envió petición: LANDED
+Avión 53 envió petición: LANDED
+Avión 52 envió petición: LANDED
