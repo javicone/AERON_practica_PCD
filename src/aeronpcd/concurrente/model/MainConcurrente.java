@@ -1,87 +1,105 @@
 package aeronpcd.concurrente.model;
 
-import aeronpcd.concurrente.util.Logger;
-import aeronpcd.concurrente.util.ReportManager;
-import aeronpcd.concurrente.util.Window;
+import aeronpcd.concurrente.exceptions.*;
+import aeronpcd.concurrente.util.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase principal para ejecutar la simulación en modo concurrente.
+ */
 public class MainConcurrente {
 
-    public static void main(String[] args) {
-        // --- CONFIGURACIÓN DE RECURSOS [cite: 16-18, 108] ---
-        int numAviones = 20;
-        int numPistas = 3;
-        int numPuertas = 5;
-        int numOperarios = 5; // Ampliado de 1 a 5 según Práctica 3 
-
+    /**
+     * Ejecuta la simulación concurrente del aeropuerto.
+     * Inicializa la Torre de Control, crea operarios y aviones como hilos,
+     * lanza la simulación y genera los reportes finales (logs y CSV).
+     * @param numAviones Número de aviones a simular.
+     * @param numPistas Número de pistas disponibles.
+     * @param numPuertas Número de puertas de embarque disponibles.
+     * @param numOperarios Número de operarios concurrentes de la torre.
+     */
+    public static void runSimulation(int numAviones, int numPistas, int numPuertas, int numOperarios) {
+        
         List<Airplane> airplaneThreads = new ArrayList<>();
         List<Operator> operatorThreads = new ArrayList<>();
+        long tiempoInicio = System.currentTimeMillis();
 
         try {
-            // 1. Inicializar Logger en modo CONCURRENTE [cite: 94-96]
-            Logger.setup("CONCURRENT", numAviones, numPistas, numPuertas, numOperarios);
+            // Inicialización con parámetros dinámicos
+            try {
+                Logger.setup("CONCURRENT", numAviones, numPistas, numPuertas, numOperarios);
+            } catch (LogWriteException e) {
+                System.err.println(e.getMessage());
+                return;
+            }
             Logger.log("=== INICIO DE SIMULACIÓN CONCURRENTE ===");
             
-            ReportManager rm = new ReportManager();
-            Window window = new Window(); // [cite: 50]
+            FlightPanelJSON.getInstance().configure("CONCURRENT", numAviones, numPistas, numPuertas, numOperarios);
+            
+            Window window = new Window();
+            
+            // Pasamos las pistas/puertas dinámicas al constructor
+            ControlTower tower = new ControlTower(window, numPistas, numPuertas);
 
-            // 2. Crear la Torre de Control (Monitor compartido)
-            ControlTower tower = new ControlTower(window,numPistas, numPuertas);
-
-            // 3. Crear y Lanzar los 5 Operarios de la Torre 
+            // Crear Operarios dinámicos
             for (int i = 1; i <= numOperarios; i++) {
                 Operator op = new Operator(i, tower);
                 operatorThreads.add(op);
-                op.start(); // El operario empieza a escuchar peticiones [cite: 111]
+                op.start();
             }
 
-            // 4. Crear los 20 Aviones [cite: 18, 29]
+            // Crear Aviones dinámicos
             for (int i = 1; i <= numAviones; i++) {
                 String id = String.format("IBE-%03d", i);
                 Airplane plane = new Airplane(id, tower);
                 airplaneThreads.add(plane);
             }
 
-            // Registrar aviones para el Panel de Vuelos [cite: 53]
-            tower.registerAirplanes(airplaneThreads);
-
-            // 5. LANZAR TODOS LOS HILOS DE AVIONES [cite: 38]
-            // A diferencia del secuencial, todos se inician casi a la vez
-            for (Airplane plane : airplaneThreads) {
-                plane.start(); 
+            try {
+                tower.registerAirplanes(airplaneThreads);
+            } catch (FlightPanelException e) {
+                Logger.log("[ERROR] " + e.getMessage());
             }
 
-            // 6. ESPERAR A QUE TODOS LOS AVIONES TERMINEN 
-            // El simulador finaliza cuando todos completan su ciclo [cite: 62]
+            // Lanzar hilos
+            for (Airplane plane : airplaneThreads) plane.start();
+
+            // Wait (Join)
             for (Airplane plane : airplaneThreads) {
-                try {
-                    plane.join(); // Bloquea el main hasta que este hilo muera
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
-                }
+                try { plane.join(); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
             }
+            
+            // Verificación post-vuelo
             for (Airplane plane : airplaneThreads) {
                 if (plane.getAirplaneState() != AirplaneState.DEPARTED) {
-
-                    throw new RuntimeException("AVIÓN " + plane.getAirplaneId() + " NO COMPLETÓ SU CICLO CORRECTAMENTE.");
+                    throw new RuntimeException("AVIÓN " + plane.getAirplaneId() + " NO COMPLETÓ SU CICLO.");
                 }
             }
 
-            // 7. FINALIZACIÓN Y REPORTES [cite: 64]
-            // Una vez que los aviones terminan, generamos el CSV [cite: 64]
-            rm.generateCSV(airplaneThreads);
-            
-            // Detener hilos de operarios (ya no hay más peticiones)
-            for (Operator op : operatorThreads) {
-                op.interrupt();
+            // CSV Final
+            try {
+                ReportManager.generateCSV(airplaneThreads, "CONCURRENT", numPistas, numPuertas, numOperarios);
+            } catch (CSVWriteException e) {
+                System.err.println(e.getMessage());
             }
+            
+            // Parar operarios
+            for (Operator op : operatorThreads) op.interrupt();
 
-            Logger.log("=== TODOS LOS AVIONES HAN COMPLETADO SU CICLO ===");
+            // Tiempo total de ejecución
+            long tiempoFin = System.currentTimeMillis();
+            long tiempoTotal = tiempoFin - tiempoInicio;
+            Logger.log("");
+            Logger.log("════════════════════════════════════════════════════════════");
+            Logger.log(String.format("TIEMPO TOTAL DE EJECUCIÓN: %d ms (%.2f segundos)", tiempoTotal, tiempoTotal / 1000.0));
+            Logger.log(String.format("Aviones gestionados: %d | Pistas: %d | Puertas: %d | Operarios: %d", numAviones, numPistas, numPuertas, numOperarios));
+            Logger.log("════════════════════════════════════════════════════════════");
+            Logger.log("");
             Logger.log("=== FIN DE LA SIMULACIÓN CONCURRENTE ===");
 
         } catch (Exception e) {
-            System.err.println("ERROR CRÍTICO EN LA SIMULACIÓN: " + e.getMessage());
+            System.err.println("ERROR CRÍTICO CONCURRENTE: " + e.getMessage());
             e.printStackTrace();
         } finally {
             Logger.close();

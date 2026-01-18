@@ -1,13 +1,13 @@
 package aeronpcd.concurrente.util;
 
+import aeronpcd.concurrente.exceptions.FlightPanelException;
 import aeronpcd.concurrente.model.Airplane;
 import aeronpcd.concurrente.model.AirplaneState;
-
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -30,26 +30,47 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  */
 public class FlightPanelJSON {
 
-    // Ruta del archivo JSON del panel de vuelos
-    private static final String JSON_FILE_PATH = "logs/concurrent/flight_panel.json";
+    /**
+     * Ruta del archivo JSON del panel de vuelos (se configura dinámicamente).
+     */
+    private String jsonFilePath;
     
-    // Mapa concurrente para almacenar estados (thread-safe)
+    /**
+     * Mapa concurrente para almacenar estados de vuelos.
+     * Garantiza thread-safety sin usar sincronización explícita.
+     */
     private final ConcurrentHashMap<String, AirplaneState> flightStates;
     
-    // Lock para escritura segura al archivo
+    /**
+     * Lock para escritura segura al archivo JSON.
+     * Permite múltiples lectores simultáneos pero acceso exclusivo en escritura.
+     */
     private final ReentrantReadWriteLock fileLock;
     
-    // Singleton para acceso global
+    /**
+     * Instancia única del gestor del panel JSON (Singleton).
+     */
     private static FlightPanelJSON instance;
     
+    /**
+     * Bandera que indica si el panel ha sido configurado correctamente.
+     */
+    private boolean isConfigured = false;
+    
+    /**
+     * Constructor privado del Singleton.
+     * Inicializa las estructuras de datos para almacenar y gestionar estados de vuelos.
+     */
     private FlightPanelJSON() {
         this.flightStates = new ConcurrentHashMap<>();
         this.fileLock = new ReentrantReadWriteLock();
-        initializeFile();
     }
     
     /**
      * Obtiene la instancia única del gestor del panel JSON.
+     * Implementa el patrón Singleton con sincronización thread-safe.
+     * 
+     * @return Instancia única de FlightPanelJSON.
      */
     public static synchronized FlightPanelJSON getInstance() {
         if (instance == null) {
@@ -59,27 +80,64 @@ public class FlightPanelJSON {
     }
     
     /**
+     * Configura el panel de vuelos con los parámetros de simulación.
+     * Crea la ruta del archivo JSON y genera el nombre siguiendo el mismo patrón que Logger.
+     * 
+     * Debe llamarse antes de usar cualquier otro método de esta clase.
+     * 
+     * @param mode Modo de ejecución: "CONCURRENT" o "SEQUENTIAL" para determinar carpeta.
+     * @param nAviones Número de aviones en la simulación.
+     * @param nPistas Número de pistas del aeropuerto.
+     * @param nPuertas Número de puertas de embarque.
+     * @param nOperarios Número de operarios en la simulación.
+     */
+    public void configure(String mode, int nAviones, int nPistas, int nPuertas, int nOperarios) {
+        // Misma estructura de carpetas que Logger
+        String folderPath = "logs/" + (mode.equalsIgnoreCase("SEQUENTIAL") ? "secuencial/" : "concurrent/");
+        
+        // Mismo formato de nombre que Logger
+        String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+        String fileName = String.format("aeron-%s-%dAV-%dPIS-%dPUE-%dOPE-%s.json",
+                mode.toUpperCase(), nAviones, nPistas, nPuertas, nOperarios, timeStamp);
+        
+        this.jsonFilePath = folderPath + fileName;
+        this.isConfigured = true;
+        
+        initializeFile();
+    }
+    
+    /**
      * Inicializa el archivo JSON y crea los directorios necesarios.
+     * Si la configuración no está completa, este método no hace nada.
+     * Maneja excepciones internamente registrando en el Logger.
      */
     private void initializeFile() {
+        if (!isConfigured) return;
+        
         try {
-            Path path = Paths.get(JSON_FILE_PATH);
-            Files.createDirectories(path.getParent());
+            File folder = new File(jsonFilePath).getParentFile();
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
             
             // Crear archivo vacío inicial
             writeToFile("{\n}");
-            Logger.log("[PANEL JSON] Archivo inicializado: " + JSON_FILE_PATH);
+            Logger.log("[PANEL JSON] Archivo inicializado: " + jsonFilePath);
             
-        } catch (IOException e) {
-            Logger.log("[PANEL JSON] Error al inicializar: " + e.getMessage());
+        } catch (FlightPanelException e) {
+            Logger.log("[PANEL JSON] " + e.getMessage());
         }
     }
     
     /**
-     * Registra todos los aviones con su estado inicial.
-     * Debe llamarse al inicio de la simulación.
+     * Registra todos los aviones con su estado inicial en el panel de vuelos.
+     * Debe llamarse exactamente una vez al inicio de la simulación para sincronizar
+     * los aviones con el archivo JSON.
+     * 
+     * @param airplanes Lista de aviones de la simulación.
+     * @throws FlightPanelException Si no se puede escribir en el archivo JSON.
      */
-    public void registerAirplanes(List<Airplane> airplanes) {
+    public void registerAirplanes(List<Airplane> airplanes) throws FlightPanelException {
         for (Airplane plane : airplanes) {
             flightStates.put(plane.getAirplaneId(), plane.getAirplaneState());
         }
@@ -88,13 +146,18 @@ public class FlightPanelJSON {
     }
     
     /**
-     * ACTUALIZACIÓN INSTANTÁNEA del estado de un avión.
-     * Este método es llamado por la Torre de Control cuando procesa una petición.
+     * Actualización instantánea del estado de un avión en el panel de vuelos.
+     * Este método es llamado por la Torre de Control cuando procesa una petición
+     * y necesita reflejar el cambio de estado en tiempo real.
      * 
-     * @param airplaneId ID del avión (ej. "IBE-001")
-     * @param newState Nuevo estado del avión
+     * La operación es thread-safe: actualiza el mapa en memoria de forma atómica
+     * y luego escribe inmediatamente al archivo JSON.
+     * 
+     * @param airplaneId ID único del avión (ej. "IBE-001").
+     * @param newState Nuevo estado del avión.
+     * @throws FlightPanelException Si no se puede escribir en el archivo JSON.
      */
-    public void updateFlightState(String airplaneId, AirplaneState newState) {
+    public void updateFlightState(String airplaneId, AirplaneState newState) throws FlightPanelException {
         // Actualizar en memoria (operación atómica del ConcurrentHashMap)
         AirplaneState oldState = flightStates.put(airplaneId, newState);
         
@@ -109,9 +172,15 @@ public class FlightPanelJSON {
     
     /**
      * Escribe el estado actual de todos los vuelos al archivo JSON.
-     * Usa un lock de escritura para garantizar consistencia.
+     * Usa un lock de escritura (ReentrantReadWriteLock) para garantizar consistencia
+     * entre múltiples actualizaciones concurrentes.
+     * 
+     * El archivo JSON resultante contiene todas las entradas ordenadas alfabéticamente
+     * por ID de avión.
+     * 
+     * @throws FlightPanelException Si no se puede escribir en el archivo JSON.
      */
-    private void writeJSON() {
+    private void writeJSON() throws FlightPanelException {
         fileLock.writeLock().lock();
         try {
             StringBuilder json = new StringBuilder();
@@ -144,26 +213,39 @@ public class FlightPanelJSON {
     }
     
     /**
-     * Escribe contenido al archivo JSON.
+     * Escribe contenido directamente al archivo JSON del panel de vuelos.
+     * Método interno utilizado por writeJSON().
+     * 
+     * @param content Contenido JSON a escribir en el archivo.
+     * @throws FlightPanelException Si el panel no está configurado o no se puede escribir en el archivo.
      */
-    private void writeToFile(String content) {
-        try (FileWriter writer = new FileWriter(JSON_FILE_PATH)) {
+    private void writeToFile(String content) throws FlightPanelException {
+        if (!isConfigured || jsonFilePath == null) {
+            throw new FlightPanelException("Panel de vuelos no configurado");
+        }
+        try (FileWriter writer = new FileWriter(jsonFilePath)) {
             writer.write(content);
             writer.flush();
         } catch (IOException e) {
-            Logger.log("[PANEL JSON] Error de escritura: " + e.getMessage());
+            throw new FlightPanelException(jsonFilePath, e);
         }
     }
     
     /**
-     * Obtiene el estado actual de un vuelo desde la memoria.
+     * Obtiene el estado actual de un vuelo desde la memoria caché del panel.
+     * 
+     * @param airplaneId ID único del avión.
+     * @return Estado actual del avión, o null si el avión no está registrado.
      */
     public AirplaneState getFlightState(String airplaneId) {
         return flightStates.get(airplaneId);
     }
     
     /**
-     * Genera una representación en texto del estado actual (para debug).
+     * Genera una representación en texto del estado actual del panel de vuelos.
+     * Útil para debugging y visualización en consola.
+     * 
+     * @return Cadena formateada con el estado de todos los vuelos registrados.
      */
     public String getStatusSummary() {
         StringBuilder sb = new StringBuilder();

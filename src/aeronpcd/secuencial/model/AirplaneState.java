@@ -1,15 +1,66 @@
 package aeronpcd.secuencial.model;
 
+/**
+ * Enumeración de los estados posibles de un avión durante su ciclo de vida.
+ * 
+ * Estados de aterrizaje: IN_FLIGHT → LANDING_REQUESTED → LANDING_ASSIGNED → LANDING → LANDED
+ * Estados de embarque: BOARDING → BOARDED
+ * Estados de despegue: TAKEOFF_REQUESTED → TAKEOFF_ASSIGNED → DEPARTING → DEPARTED
+ */
 public enum AirplaneState {
-	IN_FLIGHT,              // En vuelo / Iniciando
-    LANDING_REQUESTED,      // Solicitando aterrizaje (estado intermedio útil)
-    LANDING_ASSIGNED,       // Aterrizaje asignado (tiene pista)
-    LANDING,                // Aterrizando (ocupando pista)
+    
+    /**
+     * Avión en vuelo / Iniciando el ciclo de vida.
+     */
+    IN_FLIGHT,
+    
+    /**
+     * Avión solicitando permiso de aterrizaje a la torre.
+     */
+    LANDING_REQUESTED,
+    
+    /**
+     * Avión con aterrizaje autorizado y pista asignada.
+     */
+    LANDING_ASSIGNED,
+    
+    /**
+     * Avión realizando la maniobra de aterrizaje.
+     */
+    LANDING,
+    
+    /**
+     * Avión ha aterrizando y libera la pista.
+     */
     LANDED,
-    BOARDING,               // En puerta / Embarcando
+    
+    /**
+     * Avión en puerta y embarcando pasajeros.
+     */
+    BOARDING,
+    
+    /**
+     * Avión completó el embarque de pasajeros y libera la puerta.
+     */
     BOARDED,
-    TAKEOFF_REQUESTED,   // Solicitando despegue
-    TAKEOFF_ASSIGNED,    // Despegue asignado (tiene pista nueva)
-    DEPARTING,              // Despegando
-    DEPARTED    			// Ciclo completado}
+    
+    /**
+     * Avión solicitando nueva pista para despegar.
+     */
+    TAKEOFF_REQUESTED,
+    
+    /**
+     * Avión con despegue autorizado y pista asignada.
+     */
+    TAKEOFF_ASSIGNED,
+    
+    /**
+     * Avión realizando la maniobra de despegue.
+     */
+    DEPARTING,
+    
+    /**
+     * Avión ha despegado y completa su ciclo de vida.
+     */
+    DEPARTED
 }

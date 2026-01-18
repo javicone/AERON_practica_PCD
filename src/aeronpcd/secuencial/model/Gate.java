@@ -2,16 +2,30 @@ package aeronpcd.secuencial.model;
 
 /**
  * Representa una puerta de embarque en el Aeropuerto AERON.
- * En el modo secuencial, no requiere sincronización, pero sí control de estado.
+ * Gestiona el estado de ocupación de una puerta y registra qué avión la ocupa.
  */
 public class Gate {
-    private String id;        // Identificador (ej. PUE1) 
-    private boolean isFree;   // Estado de disponibilidad
-    private Airplane currentPlane; // Avión que ocupa la puerta (útil para el panel de vuelos)
+    
+    /**
+     * Identificador único de la puerta (ej. "G1").
+     */
+    private String id;
+    
+    /**
+     * Indica si la puerta está disponible (libre) o no.
+     */
+    private boolean isFree;
+    
+    /**
+     * Referencia al avión que ocupa actualmente la puerta, útil para el panel de vuelos.
+     */
+    private Airplane currentPlane;
 
     /**
-     * Constructor para inicializar la puerta con un identificador único.
-     * @param id El nombre de la puerta.
+     * Constructor de una puerta de embarque.
+     * Inicializa la puerta como disponible sin avión asignado.
+     * 
+     * @param id Identificador único de la puerta.
      */
     public Gate(String id) {
         this.id = id;
@@ -20,8 +34,9 @@ public class Gate {
     }
 
     /**
-     * Asigna un avión a la puerta.
-     * @param plane El avión que va a estacionar.
+     * Asigna un avión a la puerta marcándola como ocupada.
+     * 
+     * @param plane Avión que se estaciona en la puerta.
      */
     public void occupy(Airplane plane) {
         this.isFree = false;
@@ -29,8 +44,8 @@ public class Gate {
     }
 
     /**
-     * Libera la puerta para que pueda ser usada por otro avión.
-     * Se llama cuando el avión termina el proceso de BOARDED[cite: 336, 342].
+     * Libera la puerta haciéndola disponible para otro avión.
+     * Se llama cuando el avión completó el embarque de pasajeros.
      */
     public void release() {
         this.isFree = true;
@@ -39,25 +54,48 @@ public class Gate {
 
     // --- Getters y Setters ---
 
+    /**
+     * Obtiene el identificador de la puerta.
+     * 
+     * @return ID único de la puerta.
+     */
     public String getId() {
         return id;
     }
 
+    /**
+     * Verifica si la puerta está disponible (libre).
+     * 
+     * @return true si la puerta está libre, false si está ocupada.
+     */
     public boolean isFree() {
         return isFree;
     }
 
     /**
-     * Método compatible con la clase AirportState proporcionada.
+     * Verifica si la puerta está ocupada.
+     * Método compatible con AirportState.java para visualización.
+     * 
+     * @return true si la puerta está ocupada, false si está libre.
      */
     public boolean isOccupied() {
         return !isFree;
     }
 
+    /**
+     * Obtiene el avión que ocupa actualmente la puerta.
+     * 
+     * @return Avión que ocupa la puerta, o null si está libre.
+     */
     public Airplane getCurrentPlane() {
         return currentPlane;
     }
 
+    /**
+     * Representación en texto del estado de la puerta.
+     * 
+     * @return String con formato: "Puerta [ID - LIBRE]" o "Puerta [ID - OCUPADA por ID_AVION]".
+     */
     @Override
     public String toString() {
         return "Puerta [" + id + (isFree ? " - LIBRE]" : " - OCUPADA por " + currentPlane.getId() + "]");

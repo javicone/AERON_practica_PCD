@@ -1,0 +1,77 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+[PANEL JSON] Archivo inicializado: logs/concurrent/aeron-CONCURRENT-2AV-1PIS-1PUE-1OPE-20260118_180447.json
+Operario 1 iniciando turno.
+[PANEL JSON] Registrados 2 aviones
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1 atiende petición de Avión IBE-001
+Avión [IBE-002 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión [IBE-002 - LANDED] Cambio de estado
+Avión IBE-002 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+[PANEL JSON] IBE-002: IN_FLIGHT -> LANDED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión [IBE-002 - BOARDING] Cambio de estado
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión [IBE-002 - BOARDED] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+[PANEL JSON] IBE-002: LANDED -> BOARDED
+Operario 1 atiende petición de Avión IBE-001
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Avión [IBE-001 - LANDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Avión [IBE-001 - LANDED] Cambio de estado
+Avión IBE-001 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+[PANEL JSON] IBE-001: IN_FLIGHT -> LANDED
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-001 - BOARDING] Cambio de estado
+Avión [IBE-002 - DEPARTING] Cambio de estado
+Avión [IBE-002 - DEPARTED] Cambio de estado
+Avión [IBE-001 - BOARDED] Cambio de estado
+Avión IBE-002 encolado: DEPARTED
+Avión IBE-001 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-002
+[PANEL JSON] IBE-002: BOARDED -> DEPARTED
+Operario 1 atiende petición de Avión IBE-001
+[PANEL JSON] IBE-001: LANDED -> BOARDED
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Avión IBE-001 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-001
+[PANEL JSON] IBE-001: BOARDED -> DEPARTED
+
+════════════════════════════════════════════════════════════
+Operario 1 finaliza su turno (interrumpido).
+TIEMPO TOTAL DE EJECUCIÓN: 1179 ms (1,18 segundos)
+Aviones gestionados: 2 | Pistas: 1 | Puertas: 1 | Operarios: 1
+════════════════════════════════════════════════════════════
+
+=== FIN DE LA SIMULACIÓN CONCURRENTE ===

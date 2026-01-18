@@ -3,19 +3,25 @@ package aeronpcd.secuencial.util;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import aeronpcd.secuencial.*;
 import aeronpcd.secuencial.model.Gate;
 import aeronpcd.secuencial.model.Request;
 import aeronpcd.secuencial.model.Runway;
 import aeronpcd.secuencial.util.*;
 
+/**
+ * Utilidad para visualizar el estado del aeropuerto en formato ASCII.
+ * Proporciona métodos estáticos para generar representaciones gráficas
+ * de la cola de peticiones y el estado de recursos (pistas y puertas).
+ */
 public class AirportState {
 
-
-	/**
-     * Muestra el contenido de la cola de peticiones (FIFO) con una separación
-     * visible arriba y abajo para que se vea claramente la cola.
+    /**
+     * Muestra el contenido de la cola de peticiones (FIFO) con bordes ASCII.
+     * Incluye el tipo de petición con emojis descriptivos y el avión asociado.
+     * 
+     * @param requestQueue Lista de peticiones en la cola.
+     * @return Representación en string con bordes ╔═╗║╚ de la cola formateada.
      */
     public static String showRequestQueue(List<Request> requestQueue) {
         int n = requestQueue.size();
@@ -85,6 +91,14 @@ public class AirportState {
         return sb.toString();
     }
 
+    /**
+     * Repite un carácter un número especificado de veces.
+     * Método auxiliar para construir bordes y separadores ASCII.
+     * 
+     * @param ch Carácter a repetir.
+     * @param count Número de veces a repetir.
+     * @return String con el carácter repetido count veces.
+     */
     private static String repeat(char ch, int count) {
         StringBuilder sb = new StringBuilder(count);
         for (int i = 0; i < count; i++) {

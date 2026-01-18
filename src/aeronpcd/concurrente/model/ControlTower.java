@@ -1,5 +1,6 @@
 package aeronpcd.concurrente.model;
 
+import aeronpcd.concurrente.exceptions.FlightPanelException;
 import aeronpcd.concurrente.util.AirportState;
 import aeronpcd.concurrente.util.FlightPanelJSON;
 import aeronpcd.concurrente.util.Logger;
@@ -28,7 +29,6 @@ public class ControlTower {
     private final FlightPanelJSON flightPanel;
 
     // --- ESTRUCTURAS DE SINCRONIZACIÓN ---
-    
     // 1. LA COLA COMPARTIDA (Recurso crítico para Productor-Consumidor)
     private final Queue<Request> requestQueue;
 
@@ -38,6 +38,14 @@ public class ControlTower {
     // Items: Cuenta elementos disponibles y bloquea consumidores si está vacía
     private final Semaphore requestsAvailable;
 
+    /**
+     * Constructor de la Torre de Control.
+     * Inicializa los recursos (pistas y puertas) y las estructuras de sincronización
+     * (semáforos para la cola de peticiones).
+     * @param window Referencia a la ventana GUI para actualizar visualización.
+     * @param NumRunways Número de pistas del aeropuerto.
+     * @param numGates Número de puertas de embarque del aeropuerto.
+     */
     public ControlTower(Window window, int NumRunways, int numGates) {
         this.window = window;
         
@@ -56,7 +64,11 @@ public class ControlTower {
         this.flightPanel = FlightPanelJSON.getInstance();
     }
 
-    public void registerAirplanes(List<Airplane> airplanes) {
+    /**
+     * Registra los aviones en la torre de control y el panel de vuelos.
+     * @throws FlightPanelException si no se puede actualizar el panel de vuelos JSON
+     */
+    public void registerAirplanes(List<Airplane> airplanes) throws FlightPanelException {
         this.registeredAirplanes = airplanes;
         // Registrar aviones en el panel JSON para actualización instantánea
         flightPanel.registerAirplanes(airplanes);
@@ -67,7 +79,10 @@ public class ControlTower {
     // =========================================================================
 
     /**
-     * PRODUCTOR (Avión): Añade una petición a la cola de forma segura con Semáforos.
+     * Añade una petición a la cola de forma segura usando semáforos (Productor).
+     * Llamado por los aviones cuando desean realizar una acción (aterrizaje, despegue, etc).
+     * La petición se encola y se registra en el log.
+     * @param req La petición del avión a procesar.
      */
     public void addRequest(Request req) {
         try {
@@ -92,8 +107,11 @@ public class ControlTower {
     }
 
     /**
-     * CONSUMIDOR (Operario): Extrae una petición.
-     * Si la cola está vacía, se BLOQUEA en el semáforo 'requestsAvailable'.
+     * Extrae la siguiente petición de la cola (Consumidor).
+     * Llamado por los operarios de la torre. Si la cola está vacía, se bloquea
+     * en el semáforo 'requestsAvailable' hasta que haya peticiones disponibles.
+     * @return La siguiente petición en la cola.
+     * @throws InterruptedException Si el hilo se interrumpe mientras espera.
      */
     public Request getNextRequest() throws InterruptedException {
         // 1. Espera pasiva: Si contador es 0, el hilo se duerme aquí.
@@ -112,9 +130,17 @@ public class ControlTower {
         return req;
     }
  // =========================================================================
-    // ZONA 2: MONITORES (Gestión de Recursos Pistas/Puertas)
+    // PARTE 2: MONITORES (Gestión de Recursos Pistas/Puertas)
     // =========================================================================
 
+    /**
+     * Procesa una petición de avión de forma segura usando monitor (synchronized).
+     * Asigna o libera recursos (pistas y puertas) según el tipo de petición.
+     * Las asignaciones son atómicas: requieren pista Y puerta simultáneamente.
+     * @param req La petición a procesar.
+     * @param operarioId Identificador del operario que procesa la petición.
+     * @return true si la petición se procesó exitosamente, false si no había recursos disponibles.
+     */
     public synchronized boolean processRequest(Request req, int operarioId) {
         Airplane airplane = req.getAirplane();
         AirplaneState requestType = req.getType();
@@ -185,7 +211,11 @@ public class ControlTower {
             // ACTUALIZACIÓN INSTANTÁNEA DEL PANEL DE VUELOS (JSON)
             // Requisito: El panel debe reflejar el estado AL INSTANTE
             // ═══════════════════════════════════════════════════════════════
-            flightPanel.updateFlightState(airplane.getAirplaneId(), airplane.getAirplaneState());
+            try {
+                flightPanel.updateFlightState(airplane.getAirplaneId(), airplane.getAirplaneState());
+            } catch (FlightPanelException e) {
+                Logger.log("[ERROR] " + e.getMessage());
+            }
             
             // --- LOG DETALLADO ---
             // Formato: [OP-X] ACCION | AVION (ESTADO_ANT -> ESTADO_NUEVO)
@@ -207,8 +237,10 @@ public class ControlTower {
     }
 
     /**
-     * Método auxiliar para traducir los ENUMs a acciones legibles en español.
-     * Esto hace que el log parezca mucho más profesional.
+     * Traduce un estado de avión a una acción legible en español.
+     * Utilizado para generar mensajes de log más profesionales y claros.
+     * @param state El estado del avión.
+     * @return Una descripción de la acción en español.
      */
     private String getFriendlyActionName(AirplaneState state) {
         switch (state) {
@@ -222,12 +254,19 @@ public class ControlTower {
             default:                return state.toString();
         }
     }
-    // Métodos auxiliares privados (solo accesibles desde dentro del Monitor)
+    /**
+     * Busca una pista libre disponible.
+     * @return Una pista disponible, o null si todas están ocupadas.
+     */
     private Runway findFreeRunway() {
         for (Runway r : runways) if (r.isAvailable()) return r;
         return null;
     }
 
+    /**
+     * Busca una puerta libre disponible.
+     * @return Una puerta disponible, o null si todas están ocupadas.
+     */
     private Gate findFreeGate() {
         for (Gate g : gates) if (g.isFree()) return g;
         return null;
@@ -237,6 +276,12 @@ public class ControlTower {
     // PARTE 3: INTERFAZ GRÁFICA (LECTURA SEGURA)
     // =========================================================================
 
+    /**
+     * Actualiza la interfaz gráfica con el estado actual de la torre.
+     * Obtiene una copia segura de la cola de peticiones y actualiza los 3 paneles
+     * (eventos, estado de torre y panel de vuelos).
+     * @param headerMsg Mensaje de encabezado a mostrar en el log de eventos.
+     */
     private void printStatus(String headerMsg) {
         // Obtenemos una copia segura de la cola usando el semáforo Mutex
         // para evitar que la GUI lea mientras un hilo escribe.
@@ -264,6 +309,11 @@ public class ControlTower {
         }
     }
 
+    /**
+     * Genera el texto del panel de vuelos con la información de todos los aviones registrados.
+     * Incluye el estado actual, pista y puerta asignada de cada avión.
+     * @return Texto formateado del panel de vuelos.
+     */
     private String generateFlightPanelText() {
         StringBuilder sb = new StringBuilder();
         // Cabecera ajustada al estilo realista

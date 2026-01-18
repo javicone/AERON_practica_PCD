@@ -1,0 +1,348 @@
+=== INICIO DE SIMULACIÓN SECUENCIAL ===
+Avión [IBE-001 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-001 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión [IBE-001 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-001 - LANDING] Cambio de estado
+Avión [IBE-001 - LANDED] Cambio de estado
+Avión IBE-001 encolado: LANDED
+Avión [IBE-001 - BOARDING] Cambio de estado
+Avión [IBE-001 - BOARDED] Cambio de estado
+Avión IBE-001 encolado: BOARDED
+Avión [IBE-001 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Avión [IBE-001 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Avión IBE-001 encolado: DEPARTED
+Avión [IBE-001 - DEPARTED] Completó ciclo en 336 ms.
+Avión [IBE-002 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-002 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión [IBE-002 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-002 - LANDING] Cambio de estado
+Avión [IBE-002 - LANDED] Cambio de estado
+Avión IBE-002 encolado: LANDED
+Avión [IBE-002 - BOARDING] Cambio de estado
+Avión [IBE-002 - BOARDED] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Avión [IBE-002 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Avión [IBE-002 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-002 - DEPARTING] Cambio de estado
+Avión [IBE-002 - DEPARTED] Cambio de estado
+Avión IBE-002 encolado: DEPARTED
+Avión [IBE-002 - DEPARTED] Completó ciclo en 333 ms.
+Avión [IBE-003 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-003 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión [IBE-003 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-003 - LANDING] Cambio de estado
+Avión [IBE-003 - LANDED] Cambio de estado
+Avión IBE-003 encolado: LANDED
+Avión [IBE-003 - BOARDING] Cambio de estado
+Avión [IBE-003 - BOARDED] Cambio de estado
+Avión IBE-003 encolado: BOARDED
+Avión [IBE-003 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Avión [IBE-003 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-003 - DEPARTING] Cambio de estado
+Avión [IBE-003 - DEPARTED] Cambio de estado
+Avión IBE-003 encolado: DEPARTED
+Avión [IBE-003 - DEPARTED] Completó ciclo en 333 ms.
+Avión [IBE-004 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-004 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-004 encolado: LANDING_REQUESTED
+Avión [IBE-004 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-004 - LANDING] Cambio de estado
+Avión [IBE-004 - LANDED] Cambio de estado
+Avión IBE-004 encolado: LANDED
+Avión [IBE-004 - BOARDING] Cambio de estado
+Avión [IBE-004 - BOARDED] Cambio de estado
+Avión IBE-004 encolado: BOARDED
+Avión [IBE-004 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-004 encolado: TAKEOFF_REQUESTED
+Avión [IBE-004 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-004 - DEPARTING] Cambio de estado
+Avión [IBE-004 - DEPARTED] Cambio de estado
+Avión IBE-004 encolado: DEPARTED
+Avión [IBE-004 - DEPARTED] Completó ciclo en 328 ms.
+Avión [IBE-005 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-005 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión [IBE-005 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-005 - LANDING] Cambio de estado
+Avión [IBE-005 - LANDED] Cambio de estado
+Avión IBE-005 encolado: LANDED
+Avión [IBE-005 - BOARDING] Cambio de estado
+Avión [IBE-005 - BOARDED] Cambio de estado
+Avión IBE-005 encolado: BOARDED
+Avión [IBE-005 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-005 encolado: TAKEOFF_REQUESTED
+Avión [IBE-005 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-005 - DEPARTING] Cambio de estado
+Avión [IBE-005 - DEPARTED] Cambio de estado
+Avión IBE-005 encolado: DEPARTED
+Avión [IBE-005 - DEPARTED] Completó ciclo en 336 ms.
+Avión [IBE-006 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-006 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-006 encolado: LANDING_REQUESTED
+Avión [IBE-006 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-006 - LANDING] Cambio de estado
+Avión [IBE-006 - LANDED] Cambio de estado
+Avión IBE-006 encolado: LANDED
+Avión [IBE-006 - BOARDING] Cambio de estado
+Avión [IBE-006 - BOARDED] Cambio de estado
+Avión IBE-006 encolado: BOARDED
+Avión [IBE-006 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Avión [IBE-006 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-006 - DEPARTING] Cambio de estado
+Avión [IBE-006 - DEPARTED] Cambio de estado
+Avión IBE-006 encolado: DEPARTED
+Avión [IBE-006 - DEPARTED] Completó ciclo en 330 ms.
+Avión [IBE-007 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-007 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-007 encolado: LANDING_REQUESTED
+Avión [IBE-007 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-007 - LANDING] Cambio de estado
+Avión [IBE-007 - LANDED] Cambio de estado
+Avión IBE-007 encolado: LANDED
+Avión [IBE-007 - BOARDING] Cambio de estado
+Avión [IBE-007 - BOARDED] Cambio de estado
+Avión IBE-007 encolado: BOARDED
+Avión [IBE-007 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-007 encolado: TAKEOFF_REQUESTED
+Avión [IBE-007 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-007 - DEPARTING] Cambio de estado
+Avión [IBE-007 - DEPARTED] Cambio de estado
+Avión IBE-007 encolado: DEPARTED
+Avión [IBE-007 - DEPARTED] Completó ciclo en 329 ms.
+Avión [IBE-008 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-008 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-008 encolado: LANDING_REQUESTED
+Avión [IBE-008 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-008 - LANDING] Cambio de estado
+Avión [IBE-008 - LANDED] Cambio de estado
+Avión IBE-008 encolado: LANDED
+Avión [IBE-008 - BOARDING] Cambio de estado
+Avión [IBE-008 - BOARDED] Cambio de estado
+Avión IBE-008 encolado: BOARDED
+Avión [IBE-008 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-008 encolado: TAKEOFF_REQUESTED
+Avión [IBE-008 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-008 - DEPARTING] Cambio de estado
+Avión [IBE-008 - DEPARTED] Cambio de estado
+Avión IBE-008 encolado: DEPARTED
+Avión [IBE-008 - DEPARTED] Completó ciclo en 331 ms.
+Avión [IBE-009 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-009 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-009 encolado: LANDING_REQUESTED
+Avión [IBE-009 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-009 - LANDING] Cambio de estado
+Avión [IBE-009 - LANDED] Cambio de estado
+Avión IBE-009 encolado: LANDED
+Avión [IBE-009 - BOARDING] Cambio de estado
+Avión [IBE-009 - BOARDED] Cambio de estado
+Avión IBE-009 encolado: BOARDED
+Avión [IBE-009 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-009 encolado: TAKEOFF_REQUESTED
+Avión [IBE-009 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-009 - DEPARTING] Cambio de estado
+Avión [IBE-009 - DEPARTED] Cambio de estado
+Avión IBE-009 encolado: DEPARTED
+Avión [IBE-009 - DEPARTED] Completó ciclo en 331 ms.
+Avión [IBE-010 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-010 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-010 encolado: LANDING_REQUESTED
+Avión [IBE-010 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-010 - LANDING] Cambio de estado
+Avión [IBE-010 - LANDED] Cambio de estado
+Avión IBE-010 encolado: LANDED
+Avión [IBE-010 - BOARDING] Cambio de estado
+Avión [IBE-010 - BOARDED] Cambio de estado
+Avión IBE-010 encolado: BOARDED
+Avión [IBE-010 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-010 encolado: TAKEOFF_REQUESTED
+Avión [IBE-010 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-010 - DEPARTING] Cambio de estado
+Avión [IBE-010 - DEPARTED] Cambio de estado
+Avión IBE-010 encolado: DEPARTED
+Avión [IBE-010 - DEPARTED] Completó ciclo en 325 ms.
+Avión [IBE-011 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-011 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-011 encolado: LANDING_REQUESTED
+Avión [IBE-011 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-011 - LANDING] Cambio de estado
+Avión [IBE-011 - LANDED] Cambio de estado
+Avión IBE-011 encolado: LANDED
+Avión [IBE-011 - BOARDING] Cambio de estado
+Avión [IBE-011 - BOARDED] Cambio de estado
+Avión IBE-011 encolado: BOARDED
+Avión [IBE-011 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-011 encolado: TAKEOFF_REQUESTED
+Avión [IBE-011 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-011 - DEPARTING] Cambio de estado
+Avión [IBE-011 - DEPARTED] Cambio de estado
+Avión IBE-011 encolado: DEPARTED
+Avión [IBE-011 - DEPARTED] Completó ciclo en 333 ms.
+Avión [IBE-012 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-012 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-012 encolado: LANDING_REQUESTED
+Avión [IBE-012 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-012 - LANDING] Cambio de estado
+Avión [IBE-012 - LANDED] Cambio de estado
+Avión IBE-012 encolado: LANDED
+Avión [IBE-012 - BOARDING] Cambio de estado
+Avión [IBE-012 - BOARDED] Cambio de estado
+Avión IBE-012 encolado: BOARDED
+Avión [IBE-012 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-012 encolado: TAKEOFF_REQUESTED
+Avión [IBE-012 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-012 - DEPARTING] Cambio de estado
+Avión [IBE-012 - DEPARTED] Cambio de estado
+Avión IBE-012 encolado: DEPARTED
+Avión [IBE-012 - DEPARTED] Completó ciclo en 331 ms.
+Avión [IBE-013 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-013 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-013 encolado: LANDING_REQUESTED
+Avión [IBE-013 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-013 - LANDING] Cambio de estado
+Avión [IBE-013 - LANDED] Cambio de estado
+Avión IBE-013 encolado: LANDED
+Avión [IBE-013 - BOARDING] Cambio de estado
+Avión [IBE-013 - BOARDED] Cambio de estado
+Avión IBE-013 encolado: BOARDED
+Avión [IBE-013 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-013 encolado: TAKEOFF_REQUESTED
+Avión [IBE-013 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-013 - DEPARTING] Cambio de estado
+Avión [IBE-013 - DEPARTED] Cambio de estado
+Avión IBE-013 encolado: DEPARTED
+Avión [IBE-013 - DEPARTED] Completó ciclo en 328 ms.
+Avión [IBE-014 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-014 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-014 encolado: LANDING_REQUESTED
+Avión [IBE-014 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-014 - LANDING] Cambio de estado
+Avión [IBE-014 - LANDED] Cambio de estado
+Avión IBE-014 encolado: LANDED
+Avión [IBE-014 - BOARDING] Cambio de estado
+Avión [IBE-014 - BOARDED] Cambio de estado
+Avión IBE-014 encolado: BOARDED
+Avión [IBE-014 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-014 encolado: TAKEOFF_REQUESTED
+Avión [IBE-014 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-014 - DEPARTING] Cambio de estado
+Avión [IBE-014 - DEPARTED] Cambio de estado
+Avión IBE-014 encolado: DEPARTED
+Avión [IBE-014 - DEPARTED] Completó ciclo en 332 ms.
+Avión [IBE-015 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-015 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-015 encolado: LANDING_REQUESTED
+Avión [IBE-015 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-015 - LANDING] Cambio de estado
+Avión [IBE-015 - LANDED] Cambio de estado
+Avión IBE-015 encolado: LANDED
+Avión [IBE-015 - BOARDING] Cambio de estado
+Avión [IBE-015 - BOARDED] Cambio de estado
+Avión IBE-015 encolado: BOARDED
+Avión [IBE-015 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-015 encolado: TAKEOFF_REQUESTED
+Avión [IBE-015 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-015 - DEPARTING] Cambio de estado
+Avión [IBE-015 - DEPARTED] Cambio de estado
+Avión IBE-015 encolado: DEPARTED
+Avión [IBE-015 - DEPARTED] Completó ciclo en 333 ms.
+Avión [IBE-016 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-016 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-016 encolado: LANDING_REQUESTED
+Avión [IBE-016 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-016 - LANDING] Cambio de estado
+Avión [IBE-016 - LANDED] Cambio de estado
+Avión IBE-016 encolado: LANDED
+Avión [IBE-016 - BOARDING] Cambio de estado
+Avión [IBE-016 - BOARDED] Cambio de estado
+Avión IBE-016 encolado: BOARDED
+Avión [IBE-016 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-016 encolado: TAKEOFF_REQUESTED
+Avión [IBE-016 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-016 - DEPARTING] Cambio de estado
+Avión [IBE-016 - DEPARTED] Cambio de estado
+Avión IBE-016 encolado: DEPARTED
+Avión [IBE-016 - DEPARTED] Completó ciclo en 334 ms.
+Avión [IBE-017 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-017 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-017 encolado: LANDING_REQUESTED
+Avión [IBE-017 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-017 - LANDING] Cambio de estado
+Avión [IBE-017 - LANDED] Cambio de estado
+Avión IBE-017 encolado: LANDED
+Avión [IBE-017 - BOARDING] Cambio de estado
+Avión [IBE-017 - BOARDED] Cambio de estado
+Avión IBE-017 encolado: BOARDED
+Avión [IBE-017 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-017 encolado: TAKEOFF_REQUESTED
+Avión [IBE-017 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-017 - DEPARTING] Cambio de estado
+Avión [IBE-017 - DEPARTED] Cambio de estado
+Avión IBE-017 encolado: DEPARTED
+Avión [IBE-017 - DEPARTED] Completó ciclo en 331 ms.
+Avión [IBE-018 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-018 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-018 encolado: LANDING_REQUESTED
+Avión [IBE-018 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-018 - LANDING] Cambio de estado
+Avión [IBE-018 - LANDED] Cambio de estado
+Avión IBE-018 encolado: LANDED
+Avión [IBE-018 - BOARDING] Cambio de estado
+Avión [IBE-018 - BOARDED] Cambio de estado
+Avión IBE-018 encolado: BOARDED
+Avión [IBE-018 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-018 encolado: TAKEOFF_REQUESTED
+Avión [IBE-018 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-018 - DEPARTING] Cambio de estado
+Avión [IBE-018 - DEPARTED] Cambio de estado
+Avión IBE-018 encolado: DEPARTED
+Avión [IBE-018 - DEPARTED] Completó ciclo en 334 ms.
+Avión [IBE-019 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-019 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-019 encolado: LANDING_REQUESTED
+Avión [IBE-019 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-019 - LANDING] Cambio de estado
+Avión [IBE-019 - LANDED] Cambio de estado
+Avión IBE-019 encolado: LANDED
+Avión [IBE-019 - BOARDING] Cambio de estado
+Avión [IBE-019 - BOARDED] Cambio de estado
+Avión IBE-019 encolado: BOARDED
+Avión [IBE-019 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-019 encolado: TAKEOFF_REQUESTED
+Avión [IBE-019 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-019 - DEPARTING] Cambio de estado
+Avión [IBE-019 - DEPARTED] Cambio de estado
+Avión IBE-019 encolado: DEPARTED
+Avión [IBE-019 - DEPARTED] Completó ciclo en 333 ms.
+Avión [IBE-020 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-020 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-020 encolado: LANDING_REQUESTED
+Avión [IBE-020 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-020 - LANDING] Cambio de estado
+Avión [IBE-020 - LANDED] Cambio de estado
+Avión IBE-020 encolado: LANDED
+Avión [IBE-020 - BOARDING] Cambio de estado
+Avión [IBE-020 - BOARDED] Cambio de estado
+Avión IBE-020 encolado: BOARDED
+Avión [IBE-020 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-020 encolado: TAKEOFF_REQUESTED
+Avión [IBE-020 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-020 - DEPARTING] Cambio de estado
+Avión [IBE-020 - DEPARTED] Cambio de estado
+Avión IBE-020 encolado: DEPARTED
+Avión [IBE-020 - DEPARTED] Completó ciclo en 330 ms.
+
+════════════════════════════════════════════════════════════
+TIEMPO TOTAL DE EJECUCIÓN: 17187 ms (17,19 segundos)
+Aviones gestionados: 20 | Pistas: 3 | Puertas: 5 | Operarios: 1
+════════════════════════════════════════════════════════════
+
+=== FIN DE LA SIMULACIÓN SECUENCIAL ===

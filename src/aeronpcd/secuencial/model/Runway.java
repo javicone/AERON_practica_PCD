@@ -2,15 +2,30 @@ package aeronpcd.secuencial.model;
 
 /**
  * Representa una pista de aterrizaje o despegue en el Aeropuerto AERON.
- * El aeropuerto dispone de 3 pistas en total[cite: 16, 33].
+ * El aeropuerto dispone de 3 pistas en total, utilizadas por los aviones
+ * para las operaciones de aterrizaje y despegue.
  */
 public class Runway {
-    private String id;             // Identificador (ej. "PIS1") 
-    private boolean isFree;        // Estado de disponibilidad
-    private Airplane currentPlane; // Avión que ocupa la pista actualmente
+    
+    /**
+     * Identificador único de la pista (ej. "PIS1").
+     */
+    private String id;
+    
+    /**
+     * Indica si la pista está disponible (libre) o no.
+     */
+    private boolean isFree;
+    
+    /**
+     * Referencia al avión que ocupa actualmente la pista, o null si está libre.
+     */
+    private Airplane currentPlane;
 
     /**
      * Constructor de la pista.
+     * Inicializa la pista como disponible sin avión asignado.
+     * 
      * @param id Identificador único de la pista.
      */
     public Runway(String id) {
@@ -21,7 +36,8 @@ public class Runway {
 
     /**
      * Asigna la pista a un avión para una maniobra (aterrizaje o despegue).
-     * Cada pista solo puede ser usada por un avión simultáneamente[cite: 41].
+     * Cada pista solo puede ser usada por un avión simultáneamente.
+     * 
      * @param plane El avión que ocupará la pista.
      */
     public void occupy(Airplane plane) {
@@ -30,9 +46,9 @@ public class Runway {
     }
 
     /**
-     * Libera la pista. 
+     * Libera la pista, dejándola disponible para el siguiente avión.
      * Se debe llamar cuando el avión termina de aterrizar (LANDED) 
-     * o cuando termina de despegar (DEPARTED)[cite: 341, 343].
+     * o cuando termina de despegar (DEPARTED).
      */
     public void release() {
         this.isFree = true;
@@ -41,24 +57,36 @@ public class Runway {
 
     // --- Getters necesarios para AirportState y Torre de Control ---
 
+    /**
+     * Obtiene el identificador de la pista.
+     * 
+     * @return ID único de la pista (ej. "PIS1").
+     */
     public String getId() {
         return id;
     }
 
     /**
-     * Método requerido por AirportState.java para mostrar el estado visual.
-     * @return true si la pista está libre.
+     * Verifica si la pista está disponible para una nueva operación.
+     * 
+     * @return true si la pista está libre, false si está ocupada.
      */
     public boolean isAvailable() {
         return isFree;
     }
 
+    /**
+     * Obtiene el avión que está ocupando actualmente la pista.
+     * 
+     * @return Referencia al avión que ocupa la pista, o null si está libre.
+     */
     public Airplane getCurrentPlane() {
         return currentPlane;
     }
 
-    @Override
-    public String toString() {
-        return "Pista [" + id + (isFree ? " - LIBRE]" : " - OCUPADA por " + currentPlane.getId() + "]");
-    }
+    /**
+     * Representación en texto del estado de la pista.
+     * 
+     * @return Cadena con formato: "Pista [ID - LIBRE]" o "Pista [ID - OCUPADA por ID_AVION]".
+     */
 }

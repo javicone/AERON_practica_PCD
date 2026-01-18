@@ -2,58 +2,96 @@ package aeronpcd.secuencial.model;
 
 import aeronpcd.secuencial.util.Logger;
 
-// Asegúrate de importar tus recursos
-// import aeronpcd.util.Runway; 
-// import aeronpcd.util.Gate;
-
+/**
+ * Representa un avión en el simulador del Aeropuerto AERON.
+ * 
+ * En modo secuencial, cada avión ejecuta su ciclo de vida de forma lineal:
+ * aterrizaje → embarque → despegue → salida.
+ * 
+ * El avión solicita recursos (pistas y puertas) a la torre de control y
+ * mantiene un registro de tiempos de ejecución para estadísticas.
+ */
 public class Airplane {
 
+    /**
+     * Identificador único del avión (ej. "IBE-001").
+     */
     private String id;
+    
+    /**
+     * Estado actual del avión en su ciclo de vida.
+     */
     private AirplaneState state;
+    
+    /**
+     * Referencia a la torre de control para solicitar recursos.
+     */
     private ControlTower tower;
 
-    // Recursos asignados
+    /**
+     * Pista de aterrizaje/despegue asignada al avión (si está disponible).
+     */
     private Runway assignedRunway;
+    
+    /**
+     * Puerta de embarque asignada al avión (si está disponible).
+     */
     private Gate assignedGate;
 
-    // Estadísticas
+    /**
+     * Marca de tiempo de inicio del ciclo de vida del avión.
+     */
     private long startTime;
+    
+    /**
+     * Marca de tiempo de fin del ciclo de vida del avión.
+     */
     private long endTime;
+    
+    /**
+     * Duración total del ciclo en milisegundos.
+     */
     private long duracionEnMs;
 
+    /**
+     * Constructor de un avión.
+     * Inicializa el avión en estado IN_FLIGHT y vinculado a una torre de control.
+     * 
+     * @param id Identificador único del avión.
+     * @param tower Referencia a la torre de control.
+     */
     public Airplane(String id, ControlTower tower) {
         this.id = id;
+        this.state = AirplaneState.IN_FLIGHT;
         this.tower = tower;
-        this.state = AirplaneState.IN_FLIGHT; // Estado inicial [cite: 359]
+        this.assignedRunway = null;
+        this.assignedGate = null;
     }
-
     /**
-     * Ejecuta el ciclo de vida completo del avión (Modo Secuencial).
-     * Sigue el flujo: Aterrizar -> Embarcar -> Despegar.
+     * Ejecuta el ciclo de vida completo del avión en modo secuencial.
+     * Sigue las fases: Aterrizaje → Embarque → Despegue.
+     * 
+     * Cada fase incluye solicitud de recursos a la torre, realización de la maniobra,
+     * confirmación y liberación de recursos.
      */
     public void runSequentialCycle() {
         this.startTime = System.currentTimeMillis();
-        System.out.println("Avión [" + this.id + "] inicia ciclo (IN_FLIGHT).");
         Logger.logAirplane(this.id, this.state.toString(), "Inicia ciclo");
         // ----------------------------------------------------------------
-        // FASE 1: ATERRIZAJE (Solicitar -> Aterrizar -> Liberar Pista)
+        // FASE 1: ATERRIZAJE (Solicitar → Aterrizar → Liberar Pista)
         // ----------------------------------------------------------------
         
-        // 1. Solicitar Aterrizaje
-        setState(AirplaneState.LANDING_REQUESTED); // [cite: 360]
+        // Paso 1: Solicitar aterrizaje
+        setState(AirplaneState.LANDING_REQUESTED);
         tower.addRequest(new Request(this, AirplaneState.LANDING_REQUESTED));
-        // Verificamos si nos dio permiso (nos cambió a LANDING_ASSIGNED [cite: 361]).
+        // Verificamos si nos dio permiso (nos cambió a LANDING_ASSIGNED)
         if (this.state == AirplaneState.LANDING_ASSIGNED) {
-        	Logger.logAirplane(this.id, this.state.toString(), "El avión está en " + this.state);
-        	simulationSleep(500);
-        	// 2. Realizar maniobra de aterrizaje
-            setState(AirplaneState.LANDING); // [cite: 362]
-            Logger.logAirplane(this.id, this.state.toString(), "El avión está en " + this.state);
-            simulationSleep(800); // Tarda 100 ms obligatoriamente 
+            // Paso 2: Realizar maniobra de aterrizaje
+            setState(AirplaneState.LANDING);
+            simulationSleep(100); // Tarda 100 ms obligatoriamente 
 
-            // 3. Notificar fin de aterrizaje para liberar la PISTA
-            setState(AirplaneState.LANDED); // [cite: 363]
-            simulationSleep(500);
+            // Paso 3: Notificar fin de aterrizaje para liberar la PISTA
+            setState(AirplaneState.LANDED);
             tower.addRequest(new Request(this, AirplaneState.LANDED));
             // Al volver de esta llamada, la torre ya habrá liberado la pista (null).
         } else {
@@ -62,39 +100,34 @@ public class Airplane {
         }
 
         // ----------------------------------------------------------------
-        // FASE 2: EMBARQUE (Estacionar -> Subir Pasajeros -> Liberar Puerta)
+        // FASE 2: EMBARQUE (Estacionar → Subir Pasajeros → Liberar Puerta)
         // ----------------------------------------------------------------
 
-        simulationSleep(500);
-        // 4. Proceso de Embarque (el avión está en la puerta)
-        setState(AirplaneState.BOARDING); // [cite: 364]
+        // Paso 4: Proceso de Embarque (el avión está en la puerta)
+        setState(AirplaneState.BOARDING);
         // El enunciado no especifica tiempo exacto, ponemos algo breve para simular
-        simulationSleep(500);
-        simulationSleep(50); 
+        simulationSleep(100);
         
-        // 5. Notificar fin de embarque para liberar la PUERTA
-        setState(AirplaneState.BOARDED); // [cite: 365]
+        
+        // Paso 5: Notificar fin de embarque para liberar la PUERTA
+        setState(AirplaneState.BOARDED);
         tower.addRequest(new Request(this, AirplaneState.BOARDED));
-        simulationSleep(500);
         // ----------------------------------------------------------------
-        // FASE 3: DESPEGUE (Solicitar -> Despegar -> Liberar Pista)
+        // FASE 3: DESPEGUE (Solicitar → Despegar → Liberar Pista)
         // ----------------------------------------------------------------
 
-        // 6. Solicitar nueva pista para despegar
-        setState(AirplaneState.TAKEOFF_REQUESTED); // [cite: 366]
+        // Paso 6: Solicitar nueva pista para despegar
+        setState(AirplaneState.TAKEOFF_REQUESTED);
         tower.addRequest(new Request(this, AirplaneState.TAKEOFF_REQUESTED));
-        simulationSleep(500);
-        // Verificamos si la torre nos asignó nueva pista (TAKEOFF_ASSIGNED [cite: 367])
+        // Verificamos si la torre nos asignó nueva pista (TAKEOFF_ASSIGNED)
         if (this.state == AirplaneState.TAKEOFF_ASSIGNED) {
-        	simulationSleep(500);
-            // 7. Realizar maniobra de despegue
-            setState(AirplaneState.DEPARTING); // [cite: 368]
+            // Paso 7: Realizar maniobra de despegue
+            setState(AirplaneState.DEPARTING);
             simulationSleep(100); // Tarda 100 ms obligatoriamente 
 
-            // 8. Notificar que el avión se ha ido (Liberar pista)
-            setState(AirplaneState.DEPARTED); // [cite: 369]
+            // Paso 8: Notificar que el avión se ha ido (Liberar pista)
+            setState(AirplaneState.DEPARTED);
             tower.addRequest(new Request(this, AirplaneState.DEPARTED));
-            simulationSleep(500);
         } else {
             System.err.println("Error crítico: Avión " + id + " no recibió pista para despegar.");
         }
@@ -102,11 +135,17 @@ public class Airplane {
         // Fin del ciclo
         this.endTime = System.currentTimeMillis();
         duracionEnMs = endTime-startTime;
-        System.out.println("Avión [" + this.id + "] completó ciclo en " + getTotalTime() + " ms.");
+        Logger.logAirplane(this.id, this.state.toString(), "Completó ciclo en " + getTotalTime() + " ms.");
     }
 
     // --- Métodos de utilidad ---
 
+    /**
+     * Pausa la ejecución del avión durante un número especificado de milisegundos.
+     * Simula el tiempo requerido para realizar maniobras (aterrizaje, despegue, embarque).
+     * 
+     * @param ms Milisegundos a esperar.
+     */
     private void simulationSleep(long ms) {
         try {
             Thread.sleep(ms);
@@ -118,45 +157,94 @@ public class Airplane {
 
     // --- Getters y Setters ---
 
+    /**
+     * Obtiene el identificador del avión.
+     * 
+     * @return ID único del avión.
+     */
     public String getId() {
         return id;
     }
 
+    /**
+     * Cambia el estado del avión y registra el cambio en el log.
+     * 
+     * @param state Nuevo estado del avión.
+     */
     public void setState(AirplaneState state) {
         this.state = state;
-        // Opcional: Imprimir cambio de estado si quieres traza detallada
-        // System.out.println("Avión " + id + " cambia estado a: " + state);
+        Logger.logAirplane(this.id, state.toString(), "Cambio de estado");
     }
     
+    /**
+     * Obtiene el estado actual del avión.
+     * 
+     * @return Estado actual del avión.
+     */
     public AirplaneState getState() {
         return state;
     }
 
+    /**
+     * Asigna una pista al avión.
+     * 
+     * @param assignedRunway Pista asignada.
+     */
     public void setAssignedRunway(Runway assignedRunway) {
         this.assignedRunway = assignedRunway;
     }
 
+    /**
+     * Obtiene la pista asignada al avión.
+     * 
+     * @return Pista asignada, o null si no hay pista asignada.
+     */
     public Runway getAssignedRunway() {
         return assignedRunway;
     }
 
+    /**
+     * Asigna una puerta al avión.
+     * 
+     * @param assignedGate Puerta asignada.
+     */
     public void setAssignedGate(Gate assignedGate) {
         this.assignedGate = assignedGate;
     }
 
+    /**
+     * Obtiene la puerta asignada al avión.
+     * 
+     * @return Puerta asignada, o null si no hay puerta asignada.
+     */
     public Gate getAssignedGate() {
         return assignedGate;
     }
 
+    /**
+     * Calcula el tiempo total del ciclo de vida del avión.
+     * 
+     * @return Tiempo total en milisegundos.
+     */
     public long getTotalTime() {
         return endTime - startTime;
     }
 
-	public long getDuracionEnMs() {
-		return duracionEnMs;
-	}
+    /**
+     * Obtiene la duración total del ciclo en milisegundos.
+     * 
+     * @return Duración total.
+     */
+    public long getDuracionEnMs() {
+        return duracionEnMs;
+    }
 
-	public void setDuracionEnMs(long duracionEnMs) {
-		this.duracionEnMs = duracionEnMs;
-	}
+    /**
+     * Establece la duración total del ciclo.
+     * 
+     * @param duracionEnMs Duración en milisegundos.
+     */
+    public void setDuracionEnMs(long duracionEnMs) {
+        this.duracionEnMs = duracionEnMs;
+    }
 }

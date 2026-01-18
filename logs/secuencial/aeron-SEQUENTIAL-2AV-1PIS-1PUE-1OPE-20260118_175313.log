@@ -1,0 +1,42 @@
+=== INICIO DE SIMULACIÓN SECUENCIAL ===
+Avión [IBE-001 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-001 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión [IBE-001 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-001 - LANDING] Cambio de estado
+Avión [IBE-001 - LANDED] Cambio de estado
+Avión IBE-001 encolado: LANDED
+Avión [IBE-001 - BOARDING] Cambio de estado
+Avión [IBE-001 - BOARDED] Cambio de estado
+Avión IBE-001 encolado: BOARDED
+Avión [IBE-001 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Avión [IBE-001 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Avión IBE-001 encolado: DEPARTED
+Avión [IBE-001 - DEPARTED] Completó ciclo en 335 ms.
+Avión [IBE-002 - IN_FLIGHT] Inicia ciclo
+Avión [IBE-002 - LANDING_REQUESTED] Cambio de estado
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión [IBE-002 - LANDING_ASSIGNED] Cambio de estado
+Avión [IBE-002 - LANDING] Cambio de estado
+Avión [IBE-002 - LANDED] Cambio de estado
+Avión IBE-002 encolado: LANDED
+Avión [IBE-002 - BOARDING] Cambio de estado
+Avión [IBE-002 - BOARDED] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Avión [IBE-002 - TAKEOFF_REQUESTED] Cambio de estado
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Avión [IBE-002 - TAKEOFF_ASSIGNED] Cambio de estado
+Avión [IBE-002 - DEPARTING] Cambio de estado
+Avión [IBE-002 - DEPARTED] Cambio de estado
+Avión IBE-002 encolado: DEPARTED
+Avión [IBE-002 - DEPARTED] Completó ciclo en 332 ms.
+
+════════════════════════════════════════════════════════════
+TIEMPO TOTAL DE EJECUCIÓN: 1998 ms (2,00 segundos)
+Aviones gestionados: 2 | Pistas: 1 | Puertas: 1 | Operarios: 1
+════════════════════════════════════════════════════════════
+
+=== FIN DE LA SIMULACIÓN SECUENCIAL ===

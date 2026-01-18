@@ -1,16 +1,43 @@
 package aeronpcd.secuencial.util;
 
+import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
-import java.awt.*;
 
+/**
+ * Ventana principal de la interfaz gráfica del Simulador AERON en modo secuencial.
+ * 
+ * Proporciona tres paneles simultáneos para visualizar:
+ * - Panel 1: Eventos de aviones (log de actividad)
+ * - Panel 2: Estado de la Torre (recursos, pistas, puertas, cola de peticiones)
+ * - Panel 3: Panel de Vuelos (estados de los aviones)
+ * 
+ * Las actualizaciones se realizan de forma thread-safe mediante SwingUtilities.invokeLater().
+ */
 public class Window extends JFrame {
 
-    // Componentes de texto para las 3 secciones requeridas
-    private JTextArea airplaneEventsArea; // [cite: 51]
-    private JTextArea towerControlArea;   // [cite: 52]
-    private JTextArea flightPanelArea;    // [cite: 53]
+    /**
+     * Área de texto para mostrar el registro de eventos de aviones.
+     */
+    private JTextArea airplaneEventsArea;
+    
+    /**
+     * Área de texto para mostrar el estado técnico de la torre y recursos.
+     */
+    private JTextArea towerControlArea;
+    
+    /**
+     * Área de texto para mostrar el panel de vuelos con estados de aviones.
+     */
+    private JTextArea flightPanelArea;
 
+    /**
+     * Constructor de la ventana principal del simulador AERON.
+     * Inicializa los tres paneles (eventos, torre, panel de vuelos) con estilo terminal
+     * y configura el layout de 1 fila x 3 columnas.
+     * 
+     * La ventana se posiciona en el centro de la pantalla con tamaño 1200x600.
+     */
     public Window() {
         super("Simulador Aeropuerto AERON - Modo Secuencial");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,8 +63,11 @@ public class Window extends JFrame {
     }
 
     /**
-     * Método auxiliar para configurar las áreas de texto con estilo común.
-     * Importante: Usa fuente MONOSPACED para que los dibujos ASCII se alineen bien.
+     * Crea un área de texto configurada con estilo terminal (negro y verde).
+     * Utiliza fuente monoespaciada para que los gráficos ASCII se alineen correctamente.
+     * 
+     * @param title Título a mostrar en el borde del área de texto.
+     * @return JTextArea configurado con el estilo terminal.
      */
     private JTextArea createTextArea(String title) {
         JTextArea area = new JTextArea();
@@ -54,11 +84,14 @@ public class Window extends JFrame {
         return area;
     }
 
-    // ================= MÉTODOS DE ACTUALIZACIÓN =================
+    // ================= MÉTODOS DE ACTUALIZACIÓN THREAD-SAFE =================
 
     /**
-     * Añade una línea al log de eventos de aviones (Columna Izquierda).
-     * Hace scroll automático hacia abajo.
+     * Añade un evento de avión al panel de eventos.
+     * Utiliza SwingUtilities.invokeLater() para garantizar thread-safety.
+     * Hace scroll automático hacia abajo para mostrar los eventos más recientes.
+     * 
+     * @param event Descripción del evento a añadir al log.
      */
     public void addAirplaneEvent(String event) {
         SwingUtilities.invokeLater(() -> {
@@ -68,8 +101,11 @@ public class Window extends JFrame {
     }
 
     /**
-     * Reemplaza todo el contenido del área de la Torre (Columna Central).
-     * Se usa para refrescar el gráfico ASCII de las pistas y colas.
+     * Actualiza el panel de estado de la Torre de Control.
+     * Reemplaza completamente el contenido con el nuevo estado (recursos, cola, pistas, puertas).
+     * Utiliza SwingUtilities.invokeLater() para garantizar thread-safety.
+     * 
+     * @param status Texto formateado con gráficos ASCII del estado actual de la torre.
      */
     public void updateTowerArea(String status) {
         SwingUtilities.invokeLater(() -> {
@@ -78,8 +114,11 @@ public class Window extends JFrame {
     }
 
     /**
-     * Actualiza el Panel de Vuelos (Columna Derecha).
-     * Recibe el listado completo de estados.
+     * Actualiza el Panel de Vuelos con el estado de todos los aviones.
+     * Reemplaza completamente el contenido con el listado de estados.
+     * Utiliza SwingUtilities.invokeLater() para garantizar thread-safety.
+     * 
+     * @param panelData Listado completo de estados de vuelos formateado para mostrar.
      */
     public void updateFlightPanel(String panelData) {
         SwingUtilities.invokeLater(() -> {

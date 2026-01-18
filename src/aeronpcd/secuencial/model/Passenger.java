@@ -1,19 +1,34 @@
 package aeronpcd.secuencial.model;
 
 /**
- * Representa al pasajero del avión.
- * Según las reglas, solo hay un pasajero por avión para simplificar la simulación.
+ * Representa a un pasajero del avión.
+ * Según las reglas de simplificación, solo hay un pasajero por avión.
+ * El pasajero se vincula a un avión específico y participa en el ciclo de vida
+ * de la aeronave (embarque y desembarque).
  */
 public class Passenger {
+    
+    /**
+     * Identificador numérico único del pasajero.
+     */
     private int id;
+    
+    /**
+     * Nombre del pasajero para mayor realismo en los logs.
+     */
     private String nombre;
-    private Airplane planeAssigned; // Avión al que pertenece este pasajero
+    
+    /**
+     * Referencia al avión al que está asignado este pasajero.
+     */
+    private Airplane planeAssigned;
 
     /**
-     * Constructor para el pasajero.
-     * @param id Identificador numérico.
-     * @param nombre Nombre del pasajero (para dar realismo [cite: 57]).
-     * @param plane El avión asignado.
+     * Constructor de un pasajero.
+     * 
+     * @param id Identificador numérico único del pasajero.
+     * @param nombre Nombre del pasajero para los registros y logs.
+     * @param plane Avión al que está asignado este pasajero.
      */
     public Passenger(int id, String nombre, Airplane plane) {
         this.id = id;
@@ -22,8 +37,8 @@ public class Passenger {
     }
 
     /**
-     * Simula la acción de subir al avión.
-     * Este método se llamará cuando el avión esté en estado BOARDING.
+     * Simula la acción de embarque del pasajero en su avión asignado.
+     * Este método se llama cuando el avión está en estado BOARDING.
      */
     public void board() {
         // En el log se debe ver que el pasajero sube al avión asignado
@@ -32,18 +47,38 @@ public class Passenger {
 
     // --- Getters y Setters ---
 
+    /**
+     * Obtiene el identificador numérico del pasajero.
+     * 
+     * @return ID del pasajero.
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * Obtiene el nombre del pasajero.
+     * 
+     * @return Nombre del pasajero.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Obtiene el avión al que está asignado este pasajero.
+     * 
+     * @return Referencia al avión asignado.
+     */
     public Airplane getPlaneAssigned() {
         return planeAssigned;
     }
 
+    /**
+     * Asigna un nuevo avión a este pasajero.
+     * 
+     * @param planeAssigned Nuevo avión a asignar.
+     */
     public void setPlaneAssigned(Airplane planeAssigned) {
         this.planeAssigned = planeAssigned;
     }

@@ -2,7 +2,7 @@ package aeronpcd.concurrente.model;
 
 /**
  * Representa una puerta de embarque en el Aeropuerto AERON.
- * En el modo secuencial, no requiere sincronización, pero sí control de estado.
+ * Gestiona el estado de ocupación de una puerta y el avión que la utiliza.
  */
 public class Gate {
     private String id;        // Identificador (ej. PUE1) 
@@ -30,7 +30,7 @@ public class Gate {
 
     /**
      * Libera la puerta para que pueda ser usada por otro avión.
-     * Se llama cuando el avión termina el proceso de BOARDED[cite: 336, 342].
+     * Se llama cuando el avión termina el proceso de embarque (BOARDED).
      */
     public void release() {
         this.isFree = true;
@@ -39,25 +39,42 @@ public class Gate {
 
     // --- Getters y Setters ---
 
+    /**
+     * Obtiene el identificador de la puerta.
+     * @return El ID de la puerta.
+     */
     public String getId() {
         return id;
     }
 
+    /**
+     * Verifica si la puerta está disponible.
+     * @return true si la puerta está libre, false si está ocupada.
+     */
     public boolean isFree() {
         return isFree;
     }
 
     /**
-     * Método compatible con la clase AirportState proporcionada.
+     * Verifica si la puerta está ocupada.
+     * @return true si la puerta está ocupada, false si está libre.
      */
     public boolean isOccupied() {
         return !isFree;
     }
 
+    /**
+     * Obtiene el avión que actualmente ocupa la puerta.
+     * @return El avión asignado a la puerta, o null si está vacía.
+     */
     public Airplane getCurrentPlane() {
         return currentPlane;
     }
 
+    /**
+     * Genera una representación textual del estado de la puerta.
+     * @return Cadena con el ID y estado (LIBRE u OCUPADA) de la puerta.
+     */
     @Override
     public String toString() {
         return "Puerta [" + id + (isFree ? " - LIBRE]" : " - OCUPADA por " + currentPlane.getId() + "]");
