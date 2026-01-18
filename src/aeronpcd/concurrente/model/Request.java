@@ -28,6 +28,6 @@ public class Request {
     // Método toString para facilitar el Debug y los Logs
     @Override
     public String toString() {
-        return "Petición [" + type + "] del Avión " + airplane.getId();
+        return "Petición [" + type + "] del Avión " + airplane.getAirplaneId();
     }
 }

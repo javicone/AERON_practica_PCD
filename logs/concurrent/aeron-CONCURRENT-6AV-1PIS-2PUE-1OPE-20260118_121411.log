@@ -1,0 +1,208 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+Operario 1 iniciando turno.
+Avión IBE-004 encolado: LANDING_REQUESTED
+Avión IBE-006 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 1 atiende petición de Avión IBE-006
+Avión [IBE-004 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: LANDING_REQUESTED
+Avión IBE-004 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 1 atiende petición de Avión IBE-001
+Avión [IBE-004 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-001 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-004 encolado: BOARDED
+Avión IBE-001 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 1 atiende petición de Avión IBE-001
+Avión IBE-004 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-003
+Avión [IBE-001 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-003 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: BOARDED
+Avión IBE-003 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 1: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1 atiende petición de Avión IBE-003
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Avión [IBE-003 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-006
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-006 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: BOARDED
+Avión IBE-006 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-004
+Operario 1: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1 atiende petición de Avión IBE-006
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Avión [IBE-006 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-004 - DEPARTING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-006 encolado: BOARDED
+Avión IBE-004 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1 atiende petición de Avión IBE-004
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Avión [IBE-004 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Operario 1 atiende petición de Avión IBE-003
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-003 - DEPARTING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-003
+Operario 1 atiende petición de Avión IBE-006
+Avión [IBE-003 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-006 - DEPARTING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-006 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-006
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-006 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-002 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-002 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-002 - BOARDING] Cambio de estado
+Avión [IBE-005 - LANDING] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Avión IBE-005 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-002
+Operario 1 atiende petición de Avión IBE-005
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-005 - BOARDING] Cambio de estado
+Avión [IBE-002 - DEPARTING] Cambio de estado
+Avión IBE-002 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-002
+Avión IBE-005 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-002 - DEPARTED] Cambio de estado
+Avión IBE-005 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-005 - DEPARTING] Cambio de estado
+Avión IBE-005 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-005 - DEPARTED] Cambio de estado
+=== TODOS LOS AVIONES HAN COMPLETADO SU CICLO ===
+=== FIN DE LA SIMULACIÓN CONCURRENTE ===

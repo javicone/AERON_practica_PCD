@@ -1,10 +1,8 @@
 package aeronpcd.concurrente.model;
 
-import aeronpcd.concurrente.model.*;
 import aeronpcd.concurrente.util.Logger;
 import aeronpcd.concurrente.util.ReportManager;
 import aeronpcd.concurrente.util.Window;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +27,7 @@ public class MainConcurrente {
             Window window = new Window(); // [cite: 50]
 
             // 2. Crear la Torre de Control (Monitor compartido)
-            ControlTower tower = new ControlTower(window);
+            ControlTower tower = new ControlTower(window,numPistas, numPuertas);
 
             // 3. Crear y Lanzar los 5 Operarios de la Torre 
             for (int i = 1; i <= numOperarios; i++) {
@@ -61,6 +59,12 @@ public class MainConcurrente {
                     plane.join(); // Bloquea el main hasta que este hilo muera
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
+                }
+            }
+            for (Airplane plane : airplaneThreads) {
+                if (plane.getAirplaneState() != AirplaneState.DEPARTED) {
+
+                    throw new RuntimeException("AVIÓN " + plane.getAirplaneId() + " NO COMPLETÓ SU CICLO CORRECTAMENTE.");
                 }
             }
 

@@ -1,0 +1,54 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+Operario 1 iniciando turno.
+Operario 2 iniciando turno.
+Operario 3 iniciando turno.
+Operario 5 iniciando turno.
+Operario 4 iniciando turno.
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-003
+Operario 1 atiende petición de Avión IBE-001
+Operario 3 atiende petición de Avión IBE-002
+Avión [IBE-002 - LANDING] Cambio de estado
+Avión [IBE-001 - LANDING] Cambio de estado
+Avión [IBE-003 - LANDING] Cambio de estado
+Avión [IBE-002 - LANDED] Cambio de estado
+Avión IBE-002 encolado: LANDED
+Operario 5 atiende petición de Avión IBE-002
+Avión [IBE-001 - LANDED] Cambio de estado
+Avión [IBE-003 - LANDED] Cambio de estado
+Avión IBE-001 encolado: LANDED
+Operario 4 atiende petición de Avión IBE-001
+Avión IBE-003 encolado: LANDED
+Operario 3 atiende petición de Avión IBE-003
+Avión [IBE-002 - BOARDING] Cambio de estado
+Avión [IBE-003 - BOARDING] Cambio de estado
+Avión [IBE-001 - BOARDING] Cambio de estado
+Avión [IBE-002 - BOARDED] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-002
+Avión [IBE-001 - BOARDED] Cambio de estado
+Avión [IBE-003 - BOARDED] Cambio de estado
+Avión IBE-001 encolado: BOARDED
+Avión IBE-003 encolado: BOARDED
+Operario 2 atiende petición de Avión IBE-001
+Operario 5 atiende petición de Avión IBE-003
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Operario 3 atiende petición de Avión IBE-002
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Operario 4 atiende petición de Avión IBE-003
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-001
+Avión [IBE-002 - DEPARTING] Cambio de estado
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Avión [IBE-003 - DEPARTING] Cambio de estado
+Avión [IBE-002 - DEPARTED] Cambio de estado
+Avión IBE-002 encolado: DEPARTED
+Operario 5 atiende petición de Avión IBE-002
+Avión [IBE-003 - DEPARTED] Cambio de estado
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Avión IBE-003 encolado: DEPARTED
+Avión IBE-001 encolado: DEPARTED
+Operario 3 atiende petición de Avión IBE-003
+Operario 2 atiende petición de Avión IBE-001

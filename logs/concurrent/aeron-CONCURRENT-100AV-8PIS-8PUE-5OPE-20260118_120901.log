@@ -1,0 +1,2408 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+Operario 1 iniciando turno.
+Operario 3 iniciando turno.
+Operario 5 iniciando turno.
+Operario 4 iniciando turno.
+Operario 2 iniciando turno.
+Avión IBE-007 encolado: LANDING_REQUESTED
+Avión IBE-011 encolado: LANDING_REQUESTED
+Avión IBE-008 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión IBE-006 encolado: LANDING_REQUESTED
+Avión IBE-010 encolado: LANDING_REQUESTED
+Avión IBE-009 encolado: LANDING_REQUESTED
+Avión IBE-026 encolado: LANDING_REQUESTED
+Avión IBE-038 encolado: LANDING_REQUESTED
+Avión IBE-013 encolado: LANDING_REQUESTED
+Avión IBE-004 encolado: LANDING_REQUESTED
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión IBE-012 encolado: LANDING_REQUESTED
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-014 encolado: LANDING_REQUESTED
+Avión IBE-015 encolado: LANDING_REQUESTED
+Avión IBE-016 encolado: LANDING_REQUESTED
+Avión IBE-017 encolado: LANDING_REQUESTED
+Avión IBE-018 encolado: LANDING_REQUESTED
+Avión IBE-019 encolado: LANDING_REQUESTED
+Avión IBE-020 encolado: LANDING_REQUESTED
+Avión IBE-021 encolado: LANDING_REQUESTED
+Avión IBE-022 encolado: LANDING_REQUESTED
+Avión IBE-024 encolado: LANDING_REQUESTED
+Avión IBE-028 encolado: LANDING_REQUESTED
+Avión IBE-030 encolado: LANDING_REQUESTED
+Avión IBE-031 encolado: LANDING_REQUESTED
+Avión IBE-023 encolado: LANDING_REQUESTED
+Avión IBE-025 encolado: LANDING_REQUESTED
+Avión IBE-027 encolado: LANDING_REQUESTED
+Avión IBE-033 encolado: LANDING_REQUESTED
+Avión IBE-034 encolado: LANDING_REQUESTED
+Avión IBE-029 encolado: LANDING_REQUESTED
+Avión IBE-042 encolado: LANDING_REQUESTED
+Avión IBE-036 encolado: LANDING_REQUESTED
+Avión IBE-035 encolado: LANDING_REQUESTED
+Avión IBE-037 encolado: LANDING_REQUESTED
+Avión IBE-032 encolado: LANDING_REQUESTED
+Avión IBE-041 encolado: LANDING_REQUESTED
+Avión IBE-044 encolado: LANDING_REQUESTED
+Avión IBE-039 encolado: LANDING_REQUESTED
+Avión IBE-040 encolado: LANDING_REQUESTED
+Avión IBE-043 encolado: LANDING_REQUESTED
+Avión IBE-045 encolado: LANDING_REQUESTED
+Avión IBE-046 encolado: LANDING_REQUESTED
+Avión IBE-047 encolado: LANDING_REQUESTED
+Avión IBE-048 encolado: LANDING_REQUESTED
+Avión IBE-049 encolado: LANDING_REQUESTED
+Avión IBE-050 encolado: LANDING_REQUESTED
+Avión IBE-051 encolado: LANDING_REQUESTED
+Avión IBE-052 encolado: LANDING_REQUESTED
+Avión IBE-053 encolado: LANDING_REQUESTED
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-007
+Operario 5 atiende petición de Avión IBE-011
+Operario 1 atiende petición de Avión IBE-008
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-001
+Operario 2 atiende petición de Avión IBE-006
+Avión IBE-056 encolado: LANDING_REQUESTED
+Avión IBE-057 encolado: LANDING_REQUESTED
+Avión IBE-058 encolado: LANDING_REQUESTED
+Avión IBE-059 encolado: LANDING_REQUESTED
+Avión IBE-060 encolado: LANDING_REQUESTED
+Avión IBE-061 encolado: LANDING_REQUESTED
+Avión IBE-062 encolado: LANDING_REQUESTED
+Avión IBE-063 encolado: LANDING_REQUESTED
+Avión IBE-064 encolado: LANDING_REQUESTED
+Avión IBE-065 encolado: LANDING_REQUESTED
+Avión IBE-066 encolado: LANDING_REQUESTED
+Avión IBE-067 encolado: LANDING_REQUESTED
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-010
+Avión [IBE-011 - LANDING] Cambio de estado
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-009
+Avión [IBE-001 - LANDING] Cambio de estado
+Avión IBE-077 encolado: LANDING_REQUESTED
+Avión IBE-070 encolado: LANDING_REQUESTED
+Avión IBE-083 encolado: LANDING_REQUESTED
+Avión IBE-078 encolado: LANDING_REQUESTED
+Avión IBE-084 encolado: LANDING_REQUESTED
+Avión IBE-079 encolado: LANDING_REQUESTED
+Avión IBE-080 encolado: LANDING_REQUESTED
+Avión IBE-075 encolado: LANDING_REQUESTED
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-026
+Avión [IBE-007 - LANDING] Cambio de estado
+Avión IBE-089 encolado: LANDING_REQUESTED
+Avión IBE-090 encolado: LANDING_REQUESTED
+Avión IBE-085 encolado: LANDING_REQUESTED
+Avión IBE-086 encolado: LANDING_REQUESTED
+Avión IBE-091 encolado: LANDING_REQUESTED
+Avión IBE-092 encolado: LANDING_REQUESTED
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-038
+Avión [IBE-006 - LANDING] Cambio de estado
+Avión IBE-096 encolado: LANDING_REQUESTED
+Avión IBE-071 encolado: LANDING_REQUESTED
+Avión IBE-074 encolado: LANDING_REQUESTED
+Avión IBE-073 encolado: LANDING_REQUESTED
+Avión IBE-097 encolado: LANDING_REQUESTED
+Avión IBE-098 encolado: LANDING_REQUESTED
+Avión [IBE-008 - LANDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-013
+Avión IBE-076 encolado: LANDING_REQUESTED
+Avión IBE-081 encolado: LANDING_REQUESTED
+Avión IBE-087 encolado: LANDING_REQUESTED
+Avión IBE-082 encolado: LANDING_REQUESTED
+Avión IBE-088 encolado: LANDING_REQUESTED
+Avión IBE-093 encolado: LANDING_REQUESTED
+Avión IBE-094 encolado: LANDING_REQUESTED
+Avión IBE-099 encolado: LANDING_REQUESTED
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-004
+Avión [IBE-010 - LANDING] Cambio de estado
+Avión [IBE-026 - LANDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-005
+Operario 4 atiende petición de Avión IBE-003
+Avión [IBE-009 - LANDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-013
+Operario 2: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-013 encolado: LANDING_REQUESTED
+Avión IBE-038 encolado: LANDING_REQUESTED
+Avión IBE-011 encolado: LANDED
+Operario 5: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: LANDED
+Avión IBE-008 encolado: LANDED
+Operario 4: Recursos ocupados, reencolando petición de IBE-003
+Operario 3: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-006 encolado: LANDED
+Avión IBE-007 encolado: LANDED
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-010 encolado: LANDED
+Avión IBE-009 encolado: LANDED
+Avión IBE-026 encolado: LANDED
+Operario 2 atiende petición de Avión IBE-002
+Operario 1 atiende petición de Avión IBE-012
+Operario 5 atiende petición de Avión IBE-014
+Operario 4 atiende petición de Avión IBE-016
+Operario 3 atiende petición de Avión IBE-015
+Operario 2: Recursos ocupados, reencolando petición de IBE-002
+Operario 1: Recursos ocupados, reencolando petición de IBE-012
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-012 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-014
+Avión IBE-014 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-016
+Avión IBE-016 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-015
+Avión IBE-015 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-018
+Operario 1 atiende petición de Avión IBE-017
+Operario 5 atiende petición de Avión IBE-019
+Operario 4 atiende petición de Avión IBE-020
+Operario 3 atiende petición de Avión IBE-021
+Operario 2: Recursos ocupados, reencolando petición de IBE-018
+Avión IBE-018 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-017
+Avión IBE-017 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-019
+Avión IBE-019 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-020
+Avión IBE-020 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-021
+Avión IBE-021 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-022
+Operario 1 atiende petición de Avión IBE-024
+Operario 5 atiende petición de Avión IBE-028
+Operario 4 atiende petición de Avión IBE-030
+Operario 2: Recursos ocupados, reencolando petición de IBE-022
+Operario 3 atiende petición de Avión IBE-031
+Avión IBE-022 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-024
+Avión IBE-024 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-030
+Avión IBE-030 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-023
+Operario 1 atiende petición de Avión IBE-025
+Operario 5 atiende petición de Avión IBE-027
+Operario 4 atiende petición de Avión IBE-033
+Operario 3 atiende petición de Avión IBE-034
+Operario 2: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-033
+Operario 3: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-033 encolado: LANDING_REQUESTED
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-029
+Operario 1 atiende petición de Avión IBE-042
+Operario 5 atiende petición de Avión IBE-036
+Operario 4 atiende petición de Avión IBE-035
+Operario 3 atiende petición de Avión IBE-037
+Operario 2: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-032
+Operario 1 atiende petición de Avión IBE-041
+Operario 5 atiende petición de Avión IBE-044
+Operario 3 atiende petición de Avión IBE-039
+Operario 4 atiende petición de Avión IBE-040
+Operario 2: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-043
+Operario 1 atiende petición de Avión IBE-045
+Operario 5 atiende petición de Avión IBE-046
+Operario 3 atiende petición de Avión IBE-047
+Operario 4 atiende petición de Avión IBE-048
+Operario 2: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-049
+Operario 5 atiende petición de Avión IBE-051
+Operario 1 atiende petición de Avión IBE-050
+Operario 3 atiende petición de Avión IBE-052
+Operario 4 atiende petición de Avión IBE-053
+Operario 2: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-054
+Operario 1 atiende petición de Avión IBE-055
+Operario 5 atiende petición de Avión IBE-056
+Operario 3 atiende petición de Avión IBE-057
+Operario 4 atiende petición de Avión IBE-058
+Operario 2: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-059
+Operario 1 atiende petición de Avión IBE-060
+Operario 5 atiende petición de Avión IBE-061
+Operario 3 atiende petición de Avión IBE-062
+Operario 4 atiende petición de Avión IBE-063
+Operario 2: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-064
+Operario 1 atiende petición de Avión IBE-065
+Operario 5 atiende petición de Avión IBE-066
+Operario 3 atiende petición de Avión IBE-067
+Operario 2: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-068
+Operario 1: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-069
+Operario 1 atiende petición de Avión IBE-077
+Operario 5 atiende petición de Avión IBE-070
+Operario 3 atiende petición de Avión IBE-083
+Operario 2: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-078
+Operario 1: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-084
+Operario 1 atiende petición de Avión IBE-079
+Operario 5 atiende petición de Avión IBE-080
+Operario 3 atiende petición de Avión IBE-075
+Operario 2: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-072
+Operario 1: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-089
+Operario 1 atiende petición de Avión IBE-090
+Operario 5 atiende petición de Avión IBE-085
+Operario 3 atiende petición de Avión IBE-086
+Operario 2: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-091
+Operario 1: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-092
+Operario 1 atiende petición de Avión IBE-095
+Operario 5 atiende petición de Avión IBE-096
+Operario 3 atiende petición de Avión IBE-071
+Operario 2: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-074
+Operario 1: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-073
+Operario 1 atiende petición de Avión IBE-097
+Operario 5 atiende petición de Avión IBE-098
+Operario 3 atiende petición de Avión IBE-076
+Operario 2: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-081
+Operario 1: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-087
+Operario 1 atiende petición de Avión IBE-082
+Operario 5 atiende petición de Avión IBE-088
+Operario 3 atiende petición de Avión IBE-093
+Operario 4 atiende petición de Avión IBE-094
+Operario 2: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-099
+Operario 1 atiende petición de Avión IBE-100
+Operario 5 atiende petición de Avión IBE-013
+Operario 3 atiende petición de Avión IBE-038
+Operario 4 atiende petición de Avión IBE-011
+Operario 2: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-004
+Avión [IBE-011 - BOARDING] Cambio de estado
+Operario 4: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-001
+Operario 1 atiende petición de Avión IBE-008
+Operario 5 atiende petición de Avión IBE-006
+Operario 3 atiende petición de Avión IBE-007
+Operario 2 atiende petición de Avión IBE-003
+Avión [IBE-001 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-005
+Avión [IBE-008 - BOARDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-010
+Avión [IBE-006 - BOARDING] Cambio de estado
+Avión IBE-011 encolado: BOARDED
+Operario 3 atiende petición de Avión IBE-009
+Avión [IBE-007 - BOARDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-026
+Operario 2: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-002
+Avión [IBE-010 - BOARDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-012
+Avión [IBE-009 - BOARDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-014
+Avión [IBE-026 - BOARDING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: BOARDED
+Operario 3: Recursos ocupados, reencolando petición de IBE-012
+Avión IBE-012 encolado: LANDING_REQUESTED
+Avión IBE-008 encolado: BOARDED
+Avión IBE-006 encolado: BOARDED
+Operario 4: Recursos ocupados, reencolando petición de IBE-014
+Avión IBE-014 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-016
+Avión IBE-007 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-015
+Avión IBE-010 encolado: BOARDED
+Operario 2: Recursos ocupados, reencolando petición de IBE-016
+Avión IBE-016 encolado: LANDING_REQUESTED
+Avión IBE-009 encolado: BOARDED
+Operario 5 atiende petición de Avión IBE-018
+Operario 1: Recursos ocupados, reencolando petición de IBE-015
+Avión IBE-015 encolado: LANDING_REQUESTED
+Avión IBE-026 encolado: BOARDED
+Operario 3 atiende petición de Avión IBE-017
+Operario 4 atiende petición de Avión IBE-019
+Operario 5: Recursos ocupados, reencolando petición de IBE-018
+Avión IBE-018 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-017
+Avión IBE-017 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-020
+Operario 4: Recursos ocupados, reencolando petición de IBE-019
+Avión IBE-019 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-021
+Operario 2: Recursos ocupados, reencolando petición de IBE-020
+Avión IBE-020 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-022
+Operario 1: Recursos ocupados, reencolando petición de IBE-021
+Avión IBE-021 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-024
+Operario 4 atiende petición de Avión IBE-028
+Operario 5: Recursos ocupados, reencolando petición de IBE-022
+Avión IBE-022 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-024
+Avión IBE-024 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-030
+Operario 4: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-031
+Operario 2: Recursos ocupados, reencolando petición de IBE-030
+Avión IBE-030 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-023
+Operario 1: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-025
+Operario 4 atiende petición de Avión IBE-027
+Operario 5: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-033
+Operario 4: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-034
+Operario 2: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-029
+Operario 1: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-042
+Operario 4 atiende petición de Avión IBE-036
+Operario 5: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-037
+Operario 3: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-035
+Operario 2: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-032
+Operario 1: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-041
+Operario 4 atiende petición de Avión IBE-044
+Operario 5: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-039
+Operario 3: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-040
+Operario 2: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-043
+Operario 1: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-045
+Operario 4 atiende petición de Avión IBE-046
+Operario 5: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-047
+Operario 3: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-048
+Operario 2: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-049
+Operario 1: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-050
+Operario 4 atiende petición de Avión IBE-051
+Operario 5: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-052
+Operario 3: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-053
+Operario 2: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-054
+Operario 1: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-055
+Operario 4 atiende petición de Avión IBE-056
+Operario 5: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-057
+Operario 3: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-058
+Operario 2: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-059
+Operario 1: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-060
+Operario 4 atiende petición de Avión IBE-061
+Operario 5: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-062
+Operario 3: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-063
+Operario 2: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-064
+Operario 1: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-065
+Operario 4 atiende petición de Avión IBE-066
+Operario 5: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-067
+Operario 3: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-068
+Operario 2: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-069
+Operario 1: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-077
+Operario 4 atiende petición de Avión IBE-070
+Operario 5: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-083
+Operario 3: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-078
+Operario 2: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-084
+Operario 1: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-079
+Operario 4 atiende petición de Avión IBE-080
+Operario 5: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-075
+Operario 3: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-072
+Operario 2: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-089
+Operario 1: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-090
+Operario 4 atiende petición de Avión IBE-085
+Operario 5: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-086
+Operario 3: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-091
+Operario 2: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-092
+Operario 1: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-095
+Operario 4 atiende petición de Avión IBE-096
+Operario 5: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-071
+Operario 3: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-074
+Operario 2: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-073
+Operario 1: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-097
+Operario 4 atiende petición de Avión IBE-098
+Operario 5: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-076
+Operario 3: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-081
+Operario 2: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-087
+Operario 1: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-082
+Operario 4 atiende petición de Avión IBE-088
+Operario 5: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-093
+Operario 3: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-094
+Operario 2: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-099
+Operario 1: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-100
+Operario 4 atiende petición de Avión IBE-013
+Operario 5: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-038
+Operario 3: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 2: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-011
+Operario 1: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-003
+Operario 4 atiende petición de Avión IBE-005
+Operario 5 atiende petición de Avión IBE-002
+Avión IBE-011 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-001
+Operario 3 atiende petición de Avión IBE-012
+Avión [IBE-003 - LANDING] Cambio de estado
+Operario 4: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-008
+Operario 2 atiende petición de Avión IBE-006
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 3 atiende petición de Avión IBE-014
+Avión [IBE-012 - LANDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-007
+Avión IBE-008 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-010
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Avión IBE-003 encolado: LANDED
+Operario 4 atiende petición de Avión IBE-016
+Operario 3 atiende petición de Avión IBE-009
+Avión [IBE-014 - LANDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-015
+Operario 1 atiende petición de Avión IBE-026
+Avión IBE-007 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-018
+Avión IBE-010 encolado: TAKEOFF_REQUESTED
+Avión IBE-012 encolado: LANDED
+Operario 3 atiende petición de Avión IBE-017
+Avión IBE-009 encolado: TAKEOFF_REQUESTED
+Operario 4 atiende petición de Avión IBE-019
+Avión [IBE-016 - LANDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-020
+Avión [IBE-015 - LANDING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-021
+Avión [IBE-018 - LANDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-022
+Avión IBE-026 encolado: TAKEOFF_REQUESTED
+Avión IBE-014 encolado: LANDED
+Operario 3 atiende petición de Avión IBE-024
+Avión [IBE-017 - LANDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-028
+Avión [IBE-019 - LANDING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-020
+Avión IBE-020 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-021
+Avión IBE-021 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-022
+Avión IBE-022 encolado: LANDING_REQUESTED
+Avión IBE-016 encolado: LANDED
+Avión IBE-018 encolado: LANDED
+Avión IBE-015 encolado: LANDED
+Operario 4: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-024
+Avión IBE-024 encolado: LANDING_REQUESTED
+Avión IBE-017 encolado: LANDED
+Operario 5 atiende petición de Avión IBE-030
+Avión IBE-019 encolado: LANDED
+Operario 2 atiende petición de Avión IBE-023
+Operario 1 atiende petición de Avión IBE-031
+Operario 4 atiende petición de Avión IBE-025
+Operario 5: Recursos ocupados, reencolando petición de IBE-030
+Avión IBE-030 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-027
+Operario 2: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-034
+Operario 5 atiende petición de Avión IBE-033
+Operario 1 atiende petición de Avión IBE-029
+Operario 4 atiende petición de Avión IBE-042
+Operario 2: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-036
+Operario 5: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-037
+Operario 5 atiende petición de Avión IBE-035
+Operario 1 atiende petición de Avión IBE-032
+Operario 4 atiende petición de Avión IBE-041
+Operario 3 atiende petición de Avión IBE-044
+Operario 2: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-039
+Operario 5 atiende petición de Avión IBE-040
+Operario 1 atiende petición de Avión IBE-043
+Operario 4 atiende petición de Avión IBE-045
+Operario 3 atiende petición de Avión IBE-046
+Operario 2: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-047
+Operario 5 atiende petición de Avión IBE-048
+Operario 4 atiende petición de Avión IBE-049
+Operario 1 atiende petición de Avión IBE-050
+Operario 3 atiende petición de Avión IBE-051
+Operario 2: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-052
+Operario 4 atiende petición de Avión IBE-053
+Operario 5 atiende petición de Avión IBE-054
+Operario 1 atiende petición de Avión IBE-055
+Operario 3 atiende petición de Avión IBE-056
+Operario 2: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-057
+Operario 5 atiende petición de Avión IBE-058
+Operario 4 atiende petición de Avión IBE-059
+Operario 1 atiende petición de Avión IBE-060
+Operario 3 atiende petición de Avión IBE-061
+Operario 2: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-062
+Operario 5 atiende petición de Avión IBE-063
+Operario 4 atiende petición de Avión IBE-064
+Operario 1 atiende petición de Avión IBE-065
+Operario 3 atiende petición de Avión IBE-066
+Operario 2: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-067
+Operario 5 atiende petición de Avión IBE-068
+Operario 4 atiende petición de Avión IBE-069
+Operario 1 atiende petición de Avión IBE-077
+Operario 3 atiende petición de Avión IBE-070
+Operario 2: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-083
+Operario 5 atiende petición de Avión IBE-078
+Operario 4 atiende petición de Avión IBE-084
+Operario 3 atiende petición de Avión IBE-080
+Operario 1 atiende petición de Avión IBE-079
+Operario 2: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-075
+Operario 5 atiende petición de Avión IBE-072
+Operario 3 atiende petición de Avión IBE-089
+Operario 4 atiende petición de Avión IBE-090
+Operario 1 atiende petición de Avión IBE-085
+Operario 2: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-086
+Operario 5 atiende petición de Avión IBE-091
+Operario 3 atiende petición de Avión IBE-092
+Operario 4 atiende petición de Avión IBE-095
+Operario 1 atiende petición de Avión IBE-096
+Operario 2: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-071
+Operario 5 atiende petición de Avión IBE-073
+Operario 3 atiende petición de Avión IBE-074
+Operario 4 atiende petición de Avión IBE-097
+Operario 1 atiende petición de Avión IBE-098
+Operario 2: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-076
+Operario 2 atiende petición de Avión IBE-081
+Operario 3 atiende petición de Avión IBE-087
+Operario 4 atiende petición de Avión IBE-082
+Operario 1 atiende petición de Avión IBE-088
+Operario 5: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-094
+Operario 5 atiende petición de Avión IBE-093
+Operario 3 atiende petición de Avión IBE-099
+Operario 4 atiende petición de Avión IBE-100
+Operario 1 atiende petición de Avión IBE-013
+Operario 2: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-038
+Operario 5 atiende petición de Avión IBE-004
+Operario 3 atiende petición de Avión IBE-011
+Operario 4 atiende petición de Avión IBE-005
+Operario 1 atiende petición de Avión IBE-002
+Operario 2: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-011
+Avión IBE-011 encolado: TAKEOFF_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-001
+Operario 5 atiende petición de Avión IBE-008
+Operario 3 atiende petición de Avión IBE-006
+Operario 4 atiende petición de Avión IBE-003
+Operario 1 atiende petición de Avión IBE-007
+Operario 2: Recursos ocupados, reencolando petición de IBE-001
+Avión IBE-001 encolado: TAKEOFF_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-008
+Avión IBE-008 encolado: TAKEOFF_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-006
+Avión IBE-006 encolado: TAKEOFF_REQUESTED
+Operario 4 atiende petición de Avión IBE-010
+Avión [IBE-003 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-012
+Avión [IBE-007 - DEPARTING] Cambio de estado
+Operario 4: Recursos ocupados, reencolando petición de IBE-010
+Avión IBE-010 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-009
+Operario 1 atiende petición de Avión IBE-026
+Avión [IBE-012 - BOARDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-014
+Operario 3 atiende petición de Avión IBE-020
+Avión IBE-007 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-021
+Operario 2: Recursos ocupados, reencolando petición de IBE-009
+Avión IBE-009 encolado: TAKEOFF_REQUESTED
+Avión [IBE-026 - DEPARTING] Cambio de estado
+Avión IBE-003 encolado: BOARDED
+Operario 5 atiende petición de Avión IBE-022
+Avión [IBE-014 - BOARDING] Cambio de estado
+Operario 3: Recursos ocupados, reencolando petición de IBE-020
+Avión IBE-020 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-016
+Operario 1: Recursos ocupados, reencolando petición de IBE-021
+Avión IBE-021 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-022
+Avión IBE-022 encolado: LANDING_REQUESTED
+Avión IBE-012 encolado: BOARDED
+Operario 4 atiende petición de Avión IBE-018
+Avión [IBE-016 - BOARDING] Cambio de estado
+Avión IBE-026 encolado: DEPARTED
+Operario 2 atiende petición de Avión IBE-015
+Operario 3 atiende petición de Avión IBE-028
+Operario 1 atiende petición de Avión IBE-024
+Operario 4 atiende petición de Avión IBE-017
+Avión [IBE-018 - BOARDING] Cambio de estado
+Avión IBE-014 encolado: BOARDED
+Operario 5 atiende petición de Avión IBE-019
+Operario 2 atiende petición de Avión IBE-030
+Avión [IBE-015 - BOARDING] Cambio de estado
+Operario 3: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-023
+Avión [IBE-017 - BOARDING] Cambio de estado
+Operario 1: Recursos ocupados, reencolando petición de IBE-024
+Avión IBE-024 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-030
+Avión IBE-030 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-031
+Avión [IBE-019 - BOARDING] Cambio de estado
+Avión IBE-016 encolado: BOARDED
+Operario 4: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-025
+Avión IBE-018 encolado: BOARDED
+Operario 2 atiende petición de Avión IBE-027
+Avión IBE-015 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-034
+Operario 4 atiende petición de Avión IBE-033
+Avión IBE-017 encolado: BOARDED
+Operario 3: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Avión IBE-019 encolado: BOARDED
+Operario 1: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-029
+Operario 4: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-042
+Operario 2 atiende petición de Avión IBE-036
+Operario 1 atiende petición de Avión IBE-037
+Operario 4 atiende petición de Avión IBE-035
+Operario 3: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-032
+Operario 1: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-044
+Operario 3 atiende petición de Avión IBE-041
+Operario 1 atiende petición de Avión IBE-039
+Operario 4 atiende petición de Avión IBE-040
+Operario 2: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-043
+Operario 1: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-045
+Operario 3 atiende petición de Avión IBE-046
+Operario 1 atiende petición de Avión IBE-047
+Operario 4 atiende petición de Avión IBE-048
+Operario 2: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-049
+Operario 1: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-050
+Operario 3 atiende petición de Avión IBE-051
+Operario 1 atiende petición de Avión IBE-052
+Operario 4 atiende petición de Avión IBE-054
+Operario 2: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-053
+Operario 3: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-055
+Operario 3 atiende petición de Avión IBE-056
+Operario 1 atiende petición de Avión IBE-057
+Operario 4 atiende petición de Avión IBE-058
+Operario 2: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-059
+Operario 3: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-060
+Operario 3 atiende petición de Avión IBE-061
+Operario 1 atiende petición de Avión IBE-062
+Operario 4 atiende petición de Avión IBE-063
+Operario 5 atiende petición de Avión IBE-064
+Operario 2: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-065
+Operario 3 atiende petición de Avión IBE-066
+Operario 1 atiende petición de Avión IBE-067
+Operario 5 atiende petición de Avión IBE-068
+Operario 4 atiende petición de Avión IBE-069
+Operario 2: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-077
+Operario 3 atiende petición de Avión IBE-070
+Operario 5 atiende petición de Avión IBE-078
+Operario 1 atiende petición de Avión IBE-083
+Operario 4 atiende petición de Avión IBE-084
+Operario 2: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-080
+Operario 3 atiende petición de Avión IBE-079
+Operario 5 atiende petición de Avión IBE-075
+Operario 1 atiende petición de Avión IBE-072
+Operario 4 atiende petición de Avión IBE-090
+Operario 2: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-085
+Operario 2 atiende petición de Avión IBE-089
+Operario 5 atiende petición de Avión IBE-086
+Operario 1 atiende petición de Avión IBE-091
+Operario 4 atiende petición de Avión IBE-092
+Operario 3: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-095
+Operario 2 atiende petición de Avión IBE-096
+Operario 5 atiende petición de Avión IBE-071
+Operario 1 atiende petición de Avión IBE-073
+Operario 3: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-074
+Operario 2: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-097
+Operario 2 atiende petición de Avión IBE-098
+Operario 5 atiende petición de Avión IBE-076
+Operario 1 atiende petición de Avión IBE-081
+Operario 3: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-087
+Operario 2: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-082
+Operario 2 atiende petición de Avión IBE-088
+Operario 5 atiende petición de Avión IBE-094
+Operario 1 atiende petición de Avión IBE-093
+Operario 4 atiende petición de Avión IBE-099
+Operario 3: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-100
+Operario 2 atiende petición de Avión IBE-013
+Operario 5 atiende petición de Avión IBE-038
+Operario 1 atiende petición de Avión IBE-004
+Operario 4 atiende petición de Avión IBE-011
+Operario 3: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-005
+Avión [IBE-011 - DEPARTING] Cambio de estado
+Operario 4: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-002
+Operario 2 atiende petición de Avión IBE-001
+Operario 5 atiende petición de Avión IBE-008
+Operario 1 atiende petición de Avión IBE-006
+Avión IBE-011 encolado: DEPARTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-002
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-010
+Avión [IBE-001 - DEPARTING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-007
+Avión [IBE-006 - DEPARTING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-009
+Avión [IBE-008 - DEPARTING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-003
+Operario 2 atiende petición de Avión IBE-020
+Avión [IBE-010 - DEPARTING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-021
+Avión [IBE-007 - DEPARTED] Cambio de estado
+Operario 5 atiende petición de Avión IBE-022
+Avión [IBE-009 - DEPARTING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-012
+Operario 4 atiende petición de Avión IBE-026
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Avión IBE-001 encolado: DEPARTED
+Avión IBE-006 encolado: DEPARTED
+Avión IBE-008 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-014
+Operario 2: Recursos ocupados, reencolando petición de IBE-020
+Avión IBE-020 encolado: LANDING_REQUESTED
+Avión [IBE-021 - LANDING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-022
+Avión IBE-022 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-028
+Avión IBE-012 encolado: TAKEOFF_REQUESTED
+Operario 4 atiende petición de Avión IBE-024
+Avión [IBE-026 - DEPARTED] Cambio de estado
+Avión IBE-010 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-030
+Avión IBE-014 encolado: TAKEOFF_REQUESTED
+Avión IBE-009 encolado: DEPARTED
+Operario 4 atiende petición de Avión IBE-016
+Operario 3: Recursos ocupados, reencolando petición de IBE-028
+Avión [IBE-024 - LANDING] Cambio de estado
+Avión IBE-028 encolado: LANDING_REQUESTED
+Avión IBE-021 encolado: LANDED
+Operario 1: Recursos ocupados, reencolando petición de IBE-030
+Avión IBE-030 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-023
+Operario 5 atiende petición de Avión IBE-031
+Operario 4 atiende petición de Avión IBE-018
+Avión IBE-016 encolado: TAKEOFF_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Avión IBE-024 encolado: LANDED
+Operario 3 atiende petición de Avión IBE-015
+Operario 4 atiende petición de Avión IBE-017
+Avión IBE-018 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-025
+Operario 4 atiende petición de Avión IBE-027
+Avión IBE-017 encolado: TAKEOFF_REQUESTED
+Operario 3 atiende petición de Avión IBE-019
+Avión IBE-015 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-034
+Operario 5 atiende petición de Avión IBE-033
+Operario 1: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-029
+Avión IBE-019 encolado: TAKEOFF_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-042
+Operario 4 atiende petición de Avión IBE-036
+Operario 5 atiende petición de Avión IBE-037
+Operario 2 atiende petición de Avión IBE-035
+Operario 1: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-032
+Operario 4: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-044
+Operario 4 atiende petición de Avión IBE-041
+Operario 2 atiende petición de Avión IBE-040
+Operario 5 atiende petición de Avión IBE-039
+Operario 1: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-043
+Operario 4: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-045
+Operario 4 atiende petición de Avión IBE-046
+Operario 2 atiende petición de Avión IBE-047
+Operario 5 atiende petición de Avión IBE-048
+Operario 1: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-049
+Operario 4: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-050
+Operario 4 atiende petición de Avión IBE-051
+Operario 2 atiende petición de Avión IBE-052
+Operario 5 atiende petición de Avión IBE-054
+Operario 1: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-053
+Operario 4: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-055
+Operario 4 atiende petición de Avión IBE-056
+Operario 2 atiende petición de Avión IBE-057
+Operario 5 atiende petición de Avión IBE-058
+Operario 1: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-059
+Operario 4: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-060
+Operario 4 atiende petición de Avión IBE-061
+Operario 2 atiende petición de Avión IBE-062
+Operario 5 atiende petición de Avión IBE-063
+Operario 3 atiende petición de Avión IBE-064
+Operario 1: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-065
+Operario 4 atiende petición de Avión IBE-066
+Operario 2 atiende petición de Avión IBE-067
+Operario 5 atiende petición de Avión IBE-068
+Operario 3 atiende petición de Avión IBE-069
+Operario 1: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-077
+Operario 4 atiende petición de Avión IBE-070
+Operario 5 atiende petición de Avión IBE-078
+Operario 2 atiende petición de Avión IBE-083
+Operario 3 atiende petición de Avión IBE-084
+Operario 1: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-080
+Operario 4 atiende petición de Avión IBE-079
+Operario 5 atiende petición de Avión IBE-075
+Operario 2 atiende petición de Avión IBE-072
+Operario 3 atiende petición de Avión IBE-090
+Operario 1: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-089
+Operario 4 atiende petición de Avión IBE-085
+Operario 5 atiende petición de Avión IBE-086
+Operario 2 atiende petición de Avión IBE-091
+Operario 3 atiende petición de Avión IBE-092
+Operario 1: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-095
+Operario 4 atiende petición de Avión IBE-096
+Operario 5 atiende petición de Avión IBE-071
+Operario 2 atiende petición de Avión IBE-073
+Operario 3 atiende petición de Avión IBE-074
+Operario 1: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-097
+Operario 4 atiende petición de Avión IBE-098
+Operario 5 atiende petición de Avión IBE-076
+Operario 2 atiende petición de Avión IBE-081
+Operario 3 atiende petición de Avión IBE-087
+Operario 1: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-082
+Operario 4 atiende petición de Avión IBE-088
+Operario 5 atiende petición de Avión IBE-094
+Operario 2 atiende petición de Avión IBE-093
+Operario 1: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-099
+Operario 4: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-100
+Operario 4 atiende petición de Avión IBE-013
+Operario 5 atiende petición de Avión IBE-038
+Operario 2 atiende petición de Avión IBE-004
+Operario 3 atiende petición de Avión IBE-005
+Operario 1: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-011
+Operario 4 atiende petición de Avión IBE-002
+Operario 5 atiende petición de Avión IBE-003
+Operario 2 atiende petición de Avión IBE-001
+Operario 3 atiende petición de Avión IBE-006
+Operario 1 atiende petición de Avión IBE-008
+Avión [IBE-011 - DEPARTED] Cambio de estado
+Operario 4 atiende petición de Avión IBE-020
+Avión [IBE-002 - LANDING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-003
+Avión IBE-003 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-022
+Avión [IBE-001 - DEPARTED] Cambio de estado
+Operario 3 atiende petición de Avión IBE-012
+Avión [IBE-006 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-010
+Avión [IBE-008 - DEPARTED] Cambio de estado
+Operario 4 atiende petición de Avión IBE-014
+Avión [IBE-020 - LANDING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-009
+Avión [IBE-022 - LANDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-028
+Avión [IBE-012 - DEPARTING] Cambio de estado
+Avión IBE-002 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-021
+Avión [IBE-010 - DEPARTED] Cambio de estado
+Operario 5 atiende petición de Avión IBE-030
+Operario 4 atiende petición de Avión IBE-016
+Avión [IBE-014 - DEPARTING] Cambio de estado
+Operario 3: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-023
+Avión [IBE-009 - DEPARTED] Cambio de estado
+Avión IBE-020 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-031
+Avión [IBE-021 - BOARDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-024
+Avión [IBE-016 - DEPARTING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-018
+Avión [IBE-030 - LANDING] Cambio de estado
+Avión IBE-022 encolado: LANDED
+Avión IBE-012 encolado: DEPARTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-023
+Avión IBE-023 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-031
+Avión IBE-031 encolado: LANDING_REQUESTED
+Avión IBE-014 encolado: DEPARTED
+Operario 4 atiende petición de Avión IBE-017
+Avión [IBE-024 - BOARDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-015
+Avión [IBE-018 - DEPARTING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-025
+Avión IBE-016 encolado: DEPARTED
+Avión IBE-030 encolado: LANDED
+Operario 4: Recursos ocupados, reencolando petición de IBE-017
+Avión IBE-017 encolado: TAKEOFF_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-015
+Avión IBE-015 encolado: TAKEOFF_REQUESTED
+Operario 2 atiende petición de Avión IBE-019
+Operario 3: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-027
+Avión IBE-021 encolado: BOARDED
+Avión IBE-018 encolado: DEPARTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-019
+Avión IBE-019 encolado: TAKEOFF_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-027
+Avión IBE-027 encolado: LANDING_REQUESTED
+Avión IBE-024 encolado: BOARDED
+Operario 4 atiende petición de Avión IBE-034
+Operario 3 atiende petición de Avión IBE-033
+Operario 5 atiende petición de Avión IBE-029
+Operario 4: Recursos ocupados, reencolando petición de IBE-034
+Avión IBE-034 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-042
+Operario 3: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-036
+Operario 5: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-037
+Operario 3 atiende petición de Avión IBE-032
+Operario 5 atiende petición de Avión IBE-035
+Operario 4: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-044
+Operario 2 atiende petición de Avión IBE-041
+Operario 3: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-040
+Operario 3 atiende petición de Avión IBE-039
+Operario 5 atiende petición de Avión IBE-043
+Operario 1 atiende petición de Avión IBE-045
+Operario 4: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-046
+Operario 3: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-047
+Operario 3 atiende petición de Avión IBE-048
+Operario 5 atiende petición de Avión IBE-049
+Operario 1 atiende petición de Avión IBE-050
+Operario 2 atiende petición de Avión IBE-051
+Operario 4: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-052
+Operario 3 atiende petición de Avión IBE-054
+Operario 5 atiende petición de Avión IBE-053
+Operario 1 atiende petición de Avión IBE-056
+Operario 2 atiende petición de Avión IBE-055
+Operario 4: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-057
+Operario 3 atiende petición de Avión IBE-058
+Operario 1 atiende petición de Avión IBE-059
+Operario 5 atiende petición de Avión IBE-060
+Operario 2 atiende petición de Avión IBE-061
+Operario 4: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-062
+Operario 3 atiende petición de Avión IBE-063
+Operario 1 atiende petición de Avión IBE-064
+Operario 5 atiende petición de Avión IBE-065
+Operario 2 atiende petición de Avión IBE-066
+Operario 4: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-067
+Operario 3 atiende petición de Avión IBE-068
+Operario 1 atiende petición de Avión IBE-069
+Operario 5 atiende petición de Avión IBE-077
+Operario 2 atiende petición de Avión IBE-070
+Operario 4: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-078
+Operario 3 atiende petición de Avión IBE-083
+Operario 1 atiende petición de Avión IBE-084
+Operario 5 atiende petición de Avión IBE-080
+Operario 2 atiende petición de Avión IBE-079
+Operario 4: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-075
+Operario 3 atiende petición de Avión IBE-072
+Operario 1 atiende petición de Avión IBE-090
+Operario 5 atiende petición de Avión IBE-089
+Operario 4: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-085
+Operario 3: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-086
+Operario 3 atiende petición de Avión IBE-091
+Operario 1 atiende petición de Avión IBE-092
+Operario 5 atiende petición de Avión IBE-095
+Operario 2 atiende petición de Avión IBE-096
+Operario 4: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-071
+Operario 3 atiende petición de Avión IBE-073
+Operario 1 atiende petición de Avión IBE-074
+Operario 5 atiende petición de Avión IBE-097
+Operario 2 atiende petición de Avión IBE-098
+Operario 4: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-076
+Operario 3 atiende petición de Avión IBE-081
+Operario 1 atiende petición de Avión IBE-087
+Operario 5 atiende petición de Avión IBE-082
+Operario 4: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-088
+Operario 3: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-094
+Operario 3 atiende petición de Avión IBE-093
+Operario 1 atiende petición de Avión IBE-099
+Operario 5 atiende petición de Avión IBE-100
+Operario 2 atiende petición de Avión IBE-013
+Operario 4: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-038
+Operario 3 atiende petición de Avión IBE-004
+Operario 1 atiende petición de Avión IBE-005
+Operario 5 atiende petición de Avión IBE-002
+Operario 2 atiende petición de Avión IBE-003
+Operario 4: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 5 atiende petición de Avión IBE-028
+Avión [IBE-002 - BOARDING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-020
+Avión [IBE-003 - DEPARTING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-022
+Operario 2 atiende petición de Avión IBE-012
+Avión [IBE-020 - BOARDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-023
+Operario 1 atiende petición de Avión IBE-031
+Avión IBE-003 encolado: DEPARTED
+Operario 4 atiende petición de Avión IBE-014
+Avión [IBE-022 - BOARDING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-016
+Avión [IBE-012 - DEPARTED] Cambio de estado
+Avión IBE-002 encolado: BOARDED
+Operario 3 atiende petición de Avión IBE-030
+Avión [IBE-023 - LANDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-017
+Operario 1 atiende petición de Avión IBE-015
+Avión [IBE-031 - LANDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-025
+Avión [IBE-014 - DEPARTED] Cambio de estado
+Operario 2 atiende petición de Avión IBE-021
+Avión [IBE-016 - DEPARTED] Cambio de estado
+Avión [IBE-030 - BOARDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-018
+Avión IBE-020 encolado: BOARDED
+Avión [IBE-017 - DEPARTING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-019
+Operario 1 atiende petición de Avión IBE-027
+Avión [IBE-015 - DEPARTING] Cambio de estado
+Operario 4: Recursos ocupados, reencolando petición de IBE-025
+Avión IBE-025 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-024
+Avión IBE-021 encolado: TAKEOFF_REQUESTED
+Avión IBE-023 encolado: LANDED
+Avión IBE-031 encolado: LANDED
+Operario 3 atiende petición de Avión IBE-034
+Avión [IBE-018 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-033
+Avión [IBE-027 - LANDING] Cambio de estado
+Avión IBE-022 encolado: BOARDED
+Operario 5 atiende petición de Avión IBE-029
+Avión [IBE-019 - DEPARTING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-042
+Avión IBE-024 encolado: TAKEOFF_REQUESTED
+Avión IBE-017 encolado: DEPARTED
+Avión IBE-015 encolado: DEPARTED
+Operario 3 atiende petición de Avión IBE-036
+Operario 1: Recursos ocupados, reencolando petición de IBE-033
+Avión IBE-033 encolado: LANDING_REQUESTED
+Avión [IBE-034 - LANDING] Cambio de estado
+Operario 2: Recursos ocupados, reencolando petición de IBE-042
+Avión IBE-042 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-037
+Avión IBE-030 encolado: BOARDED
+Avión IBE-027 encolado: LANDED
+Avión IBE-019 encolado: DEPARTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-036
+Avión IBE-036 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-037 encolado: LANDING_REQUESTED
+Avión IBE-034 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-032
+Operario 2 atiende petición de Avión IBE-044
+Operario 5 atiende petición de Avión IBE-035
+Operario 1: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-041
+Operario 2: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-040
+Operario 3: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-039
+Operario 5 atiende petición de Avión IBE-043
+Operario 2 atiende petición de Avión IBE-045
+Operario 1: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-046
+Operario 5: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-047
+Operario 3: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-049
+Operario 5 atiende petición de Avión IBE-048
+Operario 2 atiende petición de Avión IBE-050
+Operario 1: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-051
+Operario 5: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-052
+Operario 3: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-054
+Operario 5 atiende petición de Avión IBE-053
+Operario 2 atiende petición de Avión IBE-056
+Operario 3 atiende petición de Avión IBE-055
+Operario 1: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-057
+Operario 3: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-058
+Operario 5 atiende petición de Avión IBE-059
+Operario 2 atiende petición de Avión IBE-060
+Operario 3 atiende petición de Avión IBE-061
+Operario 1: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-062
+Operario 3: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-063
+Operario 5 atiende petición de Avión IBE-064
+Operario 2 atiende petición de Avión IBE-065
+Operario 3 atiende petición de Avión IBE-066
+Operario 1: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-067
+Operario 2: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-068
+Operario 5 atiende petición de Avión IBE-069
+Operario 2 atiende petición de Avión IBE-077
+Operario 3 atiende petición de Avión IBE-070
+Operario 1: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-078
+Operario 2: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-083
+Operario 5 atiende petición de Avión IBE-084
+Operario 2 atiende petición de Avión IBE-080
+Operario 3 atiende petición de Avión IBE-079
+Operario 1: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-075
+Operario 2: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-072
+Operario 5 atiende petición de Avión IBE-090
+Operario 2 atiende petición de Avión IBE-089
+Operario 3 atiende petición de Avión IBE-085
+Operario 1: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-086
+Operario 2: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-091
+Operario 5 atiende petición de Avión IBE-092
+Operario 2 atiende petición de Avión IBE-095
+Operario 3 atiende petición de Avión IBE-096
+Operario 1: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-071
+Operario 2: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-073
+Operario 5 atiende petición de Avión IBE-074
+Operario 2 atiende petición de Avión IBE-097
+Operario 3 atiende petición de Avión IBE-098
+Operario 1: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-076
+Operario 2: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-081
+Operario 5 atiende petición de Avión IBE-087
+Operario 2 atiende petición de Avión IBE-082
+Operario 3 atiende petición de Avión IBE-088
+Operario 1: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-094
+Operario 2: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-093
+Operario 5 atiende petición de Avión IBE-099
+Operario 2 atiende petición de Avión IBE-100
+Operario 3 atiende petición de Avión IBE-013
+Operario 1: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-038
+Operario 2: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-038
+Avión IBE-038 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-004
+Operario 5 atiende petición de Avión IBE-005
+Operario 2 atiende petición de Avión IBE-028
+Operario 3 atiende petición de Avión IBE-003
+Operario 1: Recursos ocupados, reencolando petición de IBE-004
+Avión IBE-004 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-005
+Avión IBE-005 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-002
+Operario 2: Recursos ocupados, reencolando petición de IBE-028
+Avión IBE-028 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-020
+Avión [IBE-003 - DEPARTED] Cambio de estado
+Operario 4 atiende petición de Avión IBE-025
+Avión IBE-002 encolado: TAKEOFF_REQUESTED
+Operario 1 atiende petición de Avión IBE-021
+Operario 3 atiende petición de Avión IBE-023
+Avión IBE-020 encolado: TAKEOFF_REQUESTED
+Operario 5 atiende petición de Avión IBE-031
+Operario 2 atiende petición de Avión IBE-022
+Operario 4 atiende petición de Avión IBE-024
+Avión [IBE-025 - LANDING] Cambio de estado
+Operario 3 atiende petición de Avión IBE-017
+Avión [IBE-023 - BOARDING] Cambio de estado
+Operario 1 atiende petición de Avión IBE-015
+Avión [IBE-021 - DEPARTING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-033
+Avión [IBE-031 - BOARDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-042
+Avión [IBE-024 - DEPARTING] Cambio de estado
+Operario 2 atiende petición de Avión IBE-029
+Avión IBE-022 encolado: TAKEOFF_REQUESTED
+Operario 3 atiende petición de Avión IBE-030
+Avión [IBE-017 - DEPARTED] Cambio de estado
+Operario 1 atiende petición de Avión IBE-027
+Avión [IBE-015 - DEPARTED] Cambio de estado
+Avión IBE-025 encolado: LANDED
+Operario 4 atiende petición de Avión IBE-019
+Avión [IBE-042 - LANDING] Cambio de estado
+Operario 5 atiende petición de Avión IBE-036
+Avión [IBE-033 - LANDING] Cambio de estado
+Operario 2: Recursos ocupados, reencolando petición de IBE-029
+Avión IBE-029 encolado: LANDING_REQUESTED
+Avión IBE-021 encolado: DEPARTED
+Operario 3 atiende petición de Avión IBE-037
+Avión IBE-030 encolado: TAKEOFF_REQUESTED
+Avión IBE-024 encolado: DEPARTED
+Operario 1 atiende petición de Avión IBE-034
+Avión [IBE-027 - BOARDING] Cambio de estado
+Operario 4 atiende petición de Avión IBE-032
+Avión [IBE-019 - DEPARTED] Cambio de estado
+Operario 5 atiende petición de Avión IBE-044
+Avión [IBE-036 - LANDING] Cambio de estado
+Avión IBE-023 encolado: BOARDED
+Operario 3: Recursos ocupados, reencolando petición de IBE-037
+Avión IBE-031 encolado: BOARDED
+Avión IBE-037 encolado: LANDING_REQUESTED
+Avión IBE-033 encolado: LANDED
+Avión IBE-042 encolado: LANDED
+Operario 1 atiende petición de Avión IBE-035
+Operario 4: Recursos ocupados, reencolando petición de IBE-032
+Avión IBE-032 encolado: LANDING_REQUESTED
+Avión [IBE-034 - BOARDING] Cambio de estado
+Operario 5: Recursos ocupados, reencolando petición de IBE-044
+Avión IBE-044 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-041
+Operario 1: Recursos ocupados, reencolando petición de IBE-035
+Avión IBE-035 encolado: LANDING_REQUESTED
+Avión IBE-036 encolado: LANDED
+Operario 2: Recursos ocupados, reencolando petición de IBE-041
+Avión IBE-041 encolado: LANDING_REQUESTED
+Avión IBE-027 encolado: BOARDED
+Operario 3 atiende petición de Avión IBE-040
+Operario 4 atiende petición de Avión IBE-039
+Operario 5 atiende petición de Avión IBE-043
+Avión IBE-034 encolado: BOARDED
+Operario 1 atiende petición de Avión IBE-045
+Operario 3: Recursos ocupados, reencolando petición de IBE-040
+Avión IBE-040 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-039
+Avión IBE-039 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-043
+Avión IBE-043 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-046
+Operario 1: Recursos ocupados, reencolando petición de IBE-045
+Avión IBE-045 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-046
+Avión IBE-046 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-047
+Operario 4 atiende petición de Avión IBE-049
+Operario 5 atiende petición de Avión IBE-048
+Operario 1 atiende petición de Avión IBE-050
+Operario 3: Recursos ocupados, reencolando petición de IBE-047
+Avión IBE-047 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-049
+Avión IBE-049 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-048
+Avión IBE-048 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-051
+Operario 1: Recursos ocupados, reencolando petición de IBE-050
+Avión IBE-050 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-051
+Avión IBE-051 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-052
+Operario 4 atiende petición de Avión IBE-054
+Operario 5 atiende petición de Avión IBE-053
+Operario 1 atiende petición de Avión IBE-056
+Operario 3: Recursos ocupados, reencolando petición de IBE-052
+Avión IBE-052 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-054
+Avión IBE-054 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-055
+Operario 5: Recursos ocupados, reencolando petición de IBE-053
+Avión IBE-053 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-056
+Avión IBE-056 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-055
+Avión IBE-055 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-057
+Operario 4 atiende petición de Avión IBE-058
+Operario 5 atiende petición de Avión IBE-059
+Operario 1 atiende petición de Avión IBE-060
+Operario 3: Recursos ocupados, reencolando petición de IBE-057
+Avión IBE-057 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-061
+Operario 4: Recursos ocupados, reencolando petición de IBE-058
+Avión IBE-058 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-059
+Avión IBE-059 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-060
+Avión IBE-060 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-061
+Avión IBE-061 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-062
+Operario 4 atiende petición de Avión IBE-063
+Operario 5 atiende petición de Avión IBE-064
+Operario 1 atiende petición de Avión IBE-065
+Operario 3: Recursos ocupados, reencolando petición de IBE-062
+Avión IBE-062 encolado: LANDING_REQUESTED
+Operario 2 atiende petición de Avión IBE-066
+Operario 4: Recursos ocupados, reencolando petición de IBE-063
+Avión IBE-063 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-064
+Avión IBE-064 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-065
+Avión IBE-065 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-066
+Avión IBE-066 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-067
+Operario 4 atiende petición de Avión IBE-068
+Operario 5 atiende petición de Avión IBE-069
+Operario 1 atiende petición de Avión IBE-077
+Operario 2 atiende petición de Avión IBE-070
+Operario 3: Recursos ocupados, reencolando petición de IBE-067
+Avión IBE-067 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-068
+Avión IBE-068 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-069
+Avión IBE-069 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-077
+Avión IBE-077 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-070
+Avión IBE-070 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-078
+Operario 4 atiende petición de Avión IBE-083
+Operario 5 atiende petición de Avión IBE-084
+Operario 1 atiende petición de Avión IBE-080
+Operario 2 atiende petición de Avión IBE-079
+Operario 3: Recursos ocupados, reencolando petición de IBE-078
+Avión IBE-078 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-083
+Avión IBE-083 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-084
+Avión IBE-084 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-080
+Avión IBE-080 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-079
+Avión IBE-079 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-075
+Operario 4 atiende petición de Avión IBE-072
+Operario 5 atiende petición de Avión IBE-090
+Operario 1 atiende petición de Avión IBE-089
+Operario 2 atiende petición de Avión IBE-085
+Operario 3: Recursos ocupados, reencolando petición de IBE-075
+Avión IBE-075 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-072
+Avión IBE-072 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-090
+Avión IBE-090 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-085
+Avión IBE-085 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-089
+Avión IBE-089 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-086
+Operario 4 atiende petición de Avión IBE-091
+Operario 5 atiende petición de Avión IBE-092
+Operario 2 atiende petición de Avión IBE-096
+Operario 1 atiende petición de Avión IBE-095
+Operario 3: Recursos ocupados, reencolando petición de IBE-086
+Avión IBE-086 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-091
+Avión IBE-091 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-092
+Avión IBE-092 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-096
+Avión IBE-096 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-095
+Avión IBE-095 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-071
+Operario 4 atiende petición de Avión IBE-073
+Operario 5 atiende petición de Avión IBE-097
+Operario 2 atiende petición de Avión IBE-074
+Operario 1 atiende petición de Avión IBE-098
+Operario 3: Recursos ocupados, reencolando petición de IBE-071
+Avión IBE-071 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-073
+Avión IBE-073 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-097
+Avión IBE-097 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-074
+Avión IBE-074 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-098
+Avión IBE-098 encolado: LANDING_REQUESTED
+Operario 3 atiende petición de Avión IBE-076
+Operario 4 atiende petición de Avión IBE-087
+Operario 5 atiende petición de Avión IBE-081
+Operario 2 atiende petición de Avión IBE-082
+Operario 1 atiende petición de Avión IBE-088
+Operario 3: Recursos ocupados, reencolando petición de IBE-076
+Avión IBE-076 encolado: LANDING_REQUESTED
+Operario 4: Recursos ocupados, reencolando petición de IBE-087
+Avión IBE-087 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-081
+Avión IBE-081 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-082
+Avión IBE-082 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-088
+Avión IBE-088 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-093
+Operario 3 atiende petición de Avión IBE-094
+Operario 5 atiende petición de Avión IBE-099
+Operario 2 atiende petición de Avión IBE-100
+Operario 1 atiende petición de Avión IBE-013
+Operario 4: Recursos ocupados, reencolando petición de IBE-093
+Avión IBE-093 encolado: LANDING_REQUESTED
+Operario 3: Recursos ocupados, reencolando petición de IBE-094
+Avión IBE-094 encolado: LANDING_REQUESTED
+Operario 5: Recursos ocupados, reencolando petición de IBE-099
+Avión IBE-099 encolado: LANDING_REQUESTED
+Operario 2: Recursos ocupados, reencolando petición de IBE-100
+Avión IBE-100 encolado: LANDING_REQUESTED
+Operario 1: Recursos ocupados, reencolando petición de IBE-013
+Avión IBE-013 encolado: LANDING_REQUESTED
+Operario 4 atiende petición de Avión IBE-038
+Operario 3 atiende petición de Avión IBE-004
+Operario 5 atiende petición de Avión IBE-005

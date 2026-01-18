@@ -29,7 +29,7 @@ public class ReportManager {
 
                 
                 writer.println(String.format("%s,%d", 
-                    p.getId(), 
+                    p.getAirplaneId(), 
                     p.getDuracionEnMs()
                     ));
             }

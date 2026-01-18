@@ -1,0 +1,33 @@
+=== INICIO DE SIMULACIÓN CONCURRENTE ===
+[PANEL JSON] Archivo inicializado: logs/concurrent/flight_panel.json
+Operario 1 iniciando turno.
+Operario 3 iniciando turno.
+Operario 2 iniciando turno.
+Operario 5 iniciando turno.
+Operario 4 iniciando turno.
+[PANEL JSON] Registrados 20 aviones
+Avión IBE-020 encolado: LANDING_REQUESTED
+Avión IBE-001 encolado: LANDING_REQUESTED
+Avión IBE-019 encolado: LANDING_REQUESTED
+Avión IBE-018 encolado: LANDING_REQUESTED
+Avión IBE-017 encolado: LANDING_REQUESTED
+Avión IBE-016 encolado: LANDING_REQUESTED
+Avión IBE-015 encolado: LANDING_REQUESTED
+Avión IBE-014 encolado: LANDING_REQUESTED
+Avión IBE-013 encolado: LANDING_REQUESTED
+Avión IBE-011 encolado: LANDING_REQUESTED
+Avión IBE-012 encolado: LANDING_REQUESTED
+Avión IBE-010 encolado: LANDING_REQUESTED
+Avión IBE-009 encolado: LANDING_REQUESTED
+Avión IBE-008 encolado: LANDING_REQUESTED
+Avión IBE-006 encolado: LANDING_REQUESTED
+Avión IBE-007 encolado: LANDING_REQUESTED
+Avión IBE-005 encolado: LANDING_REQUESTED
+Avión IBE-004 encolado: LANDING_REQUESTED
+Avión IBE-003 encolado: LANDING_REQUESTED
+Avión IBE-002 encolado: LANDING_REQUESTED
+Operario 1 atiende petición de Avión IBE-019
+Operario 5 atiende petición de Avión IBE-017
+Operario 3 atiende petición de Avión IBE-020
+Operario 2 atiende petición de Avión IBE-018
+Operario 4 atiende petición de Avión IBE-001

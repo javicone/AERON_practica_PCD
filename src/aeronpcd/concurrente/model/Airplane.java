@@ -1,8 +1,6 @@
 package aeronpcd.concurrente.model;
 
-import aeronpcd.secuencial.util.Logger;
-import aeronpcd.concurrente.model.Request;
-import aeronpcd.concurrente.model.AirplaneState;
+import aeronpcd.concurrente.util.Logger;
 
 /**
  * Representa un Avión como un hilo independiente[cite: 30].
@@ -32,58 +30,58 @@ public class Airplane extends Thread { // Cambio a Thread para concurrencia [cit
         this.tower = tower;
         this.state = AirplaneState.IN_FLIGHT; // Estado inicial 
     }
+
+    /**
+     * Ciclo de vida concurrente del avión[cite: 67].
+     */
     @Override
     public void run() {
-        // Guardamos el momento exacto en que solicita pista para aterrizar 
         this.startTime = System.currentTimeMillis();
-    try {
-        // --- FASE 1: ATERRIZAJE ---
-        // 1. Solicitar Pista + Puerta [cite: 68, 125, 133]
-        requestAndWait(AirplaneState.LANDING_REQUESTED);
-        Thread.sleep(500); // Pausa visual: Preparando maniobra
         
-        // 2. Aterrizar (100 ms obligatorios) 
-        setState(AirplaneState.LANDING);
-        Thread.sleep(100); 
-        Thread.sleep(400); // Pausa visual: Terminando de frenar
+        try {
+            // 1. SOLICITAR ATERRIZAJE (Pide Pista + Puerta) [cite: 68, 125]
+            requestAndWait(AirplaneState.LANDING_REQUESTED);
+            
+            // 2. ATERRIZAR (100 ms obligatorios) 
+            setState(AirplaneState.LANDING);
+            Thread.sleep(100); 
 
-        // 3. Notificar fin de aterrizaje para liberar PISTA [cite: 68, 127, 133]
-        requestAndWait(AirplaneState.LANDED);
-        Thread.sleep(500); // Pausa visual: Rodando hacia la puerta
+            // 3. NOTIFICAR ATERRIZAJE (Libera Pista) [cite: 68, 127]
+            setState(AirplaneState.LANDED);  // El avión cambia su estado
+            requestAndWait(AirplaneState.LANDED);  // Luego notifica a la torre
 
+            // 5. SUBEN PASAJEROS 
+            setState(AirplaneState.BOARDING);
+            Thread.sleep(150); 
 
-        // 5. Suben pasajeros 
-        setState(AirplaneState.BOARDING);
-        Thread.sleep(1000); // Pausa visual: Simulación de embarque de pasajeros
+            // 6. LIBERAR PUERTA (Termina embarque) [cite: 68, 128]
+            setState(AirplaneState.BOARDED);  // El avión cambia su estado
+            requestAndWait(AirplaneState.BOARDED);  // Luego notifica a la torre
 
-        // 6. Liberar PUERTA (Termina embarque) [cite: 68, 128, 134]
-        requestAndWait(AirplaneState.BOARDED);
-        Thread.sleep(600); // Pausa visual: Remolque del avión (Pushback)
+            // 7. SOLICITAR DESPEGUE (Pide nueva Pista) [cite: 68, 129]
+            requestAndWait(AirplaneState.TAKEOFF_REQUESTED);
 
-        // --- FASE 3: DESPEGUE ---
-        // 7. Solicitar nueva Pista para despegar [cite: 68, 129, 135]
-        requestAndWait(AirplaneState.TAKEOFF_REQUESTED);
-        Thread.sleep(500); // Pausa visual: Esperando turno en cabecera
-
-        // 8. Despegar (100 ms obligatorios) 
-        setState(AirplaneState.DEPARTING);
-        Thread.sleep(100); 
-        Thread.sleep(400); // Pausa visual: Ascenso inicial
-
-        // 9. Finalizar y quedar en el aire [cite: 68, 130, 135]
-        requestAndWait(AirplaneState.DEPARTED);
-        setState(AirplaneState.IN_FLIGHT);
-
-    } catch (InterruptedException e) {
-        Thread.currentThread().interrupt();
-        Logger.log("Avión " + id + " interrumpido.");
-    } finally {
-        // El cálculo de tiempo se hace aquí para asegurar que endTime ya existe
-        this.endTime = System.currentTimeMillis();
-        this.duracionEnMs = this.endTime - this.startTime; // 
-        Logger.log("Avión " + id + " terminó ciclo. Duración: " + duracionEnMs + "ms");
+            // 8. DESPEGAR (100 ms obligatorios) 
+            setState(AirplaneState.DEPARTING);
+            Thread.sleep(100); 
+            
+            // 9. FINALIZAR (Libera Pista y queda en el aire) [cite: 68, 130]
+            setState(AirplaneState.DEPARTED);  // El avión cambia su estado PRIMERO
+            requestAndWait(AirplaneState.DEPARTED);  // Luego notifica a la torre para liberar pista
+            
+            // Ciclo completado
+            this.endTime = System.currentTimeMillis();
+            this.duracionEnMs = endTime - startTime;
+            
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        } finally {
+            if (this.endTime == 0) {
+                this.endTime = System.currentTimeMillis();
+            }
+            // Aquí se generaría la entrada para el CSV final [cite: 64]
+        }
     }
-}
 
     /**
      * Envía una petición a la torre y bloquea el hilo hasta que un 

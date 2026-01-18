@@ -42,8 +42,6 @@ public class Airplane {
         // 1. Solicitar Aterrizaje
         setState(AirplaneState.LANDING_REQUESTED); // [cite: 360]
         tower.addRequest(new Request(this, AirplaneState.LANDING_REQUESTED));
-        simulationSleep(500);
-        // En modo secuencial, la torre responde al instante. 
         // Verificamos si nos dio permiso (nos cambió a LANDING_ASSIGNED [cite: 361]).
         if (this.state == AirplaneState.LANDING_ASSIGNED) {
         	Logger.logAirplane(this.id, this.state.toString(), "El avión está en " + this.state);
